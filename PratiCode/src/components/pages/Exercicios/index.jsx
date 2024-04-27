@@ -1,8 +1,9 @@
+import NavBar from "../../NavBar"
 
 const Exercicio = () => {
     return(
         <>
-        <h1>Exercicio</h1>
+            <NavBar />
         </>
     )
 }

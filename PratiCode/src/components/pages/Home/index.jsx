@@ -1,8 +1,12 @@
-
+import Footer from "../../Footer"
+import NavBar from "../../NavBar"
+import Section from '../../Section'
 const Home = () => {
     return(
         <>
-        <h1>Home</h1>
+            <NavBar/> 
+            <Section />
+            <Footer/>
         </>
     )
 }

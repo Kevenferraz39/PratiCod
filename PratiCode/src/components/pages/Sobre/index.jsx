@@ -1,8 +1,9 @@
+import NavBar from "../../NavBar"
 
 const Sobre = () => {
     return(
         <>
-        <h1>Sobre</h1>
+            <NavBar/>
         </>
     )
 }

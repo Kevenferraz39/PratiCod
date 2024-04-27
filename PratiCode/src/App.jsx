@@ -1,11 +1,11 @@
 import './App.css'
-import NavBar from './components/NavBar'
+import APPRoutes from './routes'
 
 function App() {
 
   return (
     <>
-     <NavBar/>
+     <APPRoutes />
     </>
   )
 }

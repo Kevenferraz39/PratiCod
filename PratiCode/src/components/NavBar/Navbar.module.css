@@ -1,64 +1,121 @@
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ff0707;
-    padding: 10px 20px;
-    z-index: 1000;
-  }
-  
-  .navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .navbar-logo {
-    color: #fff;
-    font-size: 1.5rem;
-  }
-  
-  .navbar-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  .navbar-menu li {
-    margin-right: 20px;
-  }
-  
-  .navbar-menu li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .navbar-toggle {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --background: #282c34;
+  --text-common: #D3D4D7;
+  --color-teme: #9901c3;
+  --color-teme-hover:#740685;
+  --section-color: #16181D;
+}
+* {
+  text-decoration: none;
+  color: var(--text-common);
+}
+
+header {
+  background-color: var(--background);
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0px 0px 15px 1px var(--section-color);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.NavLinks {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 4rem;
+}
+
+.LogoText{
+  margin: 0;
+  margin-left: 2rem;
+  font-weight: 600;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-size: 2.2rem;
+  color: transparent; /* Torna o texto transparente */
+  -webkit-text-stroke: 1px var(--color-teme);
+}
+.LogoText:hover{
+  filter: drop-shadow(0px 1px 5px var(--color-teme));
+}
+.LogoFoto {
+ display: none;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+li span {
+  color: var(--text-common);
+  font-weight: bolder;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+li span:hover {
+  color: var(--color-teme);
+}
+
+nav .menu-button{
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+  .LogoText {
     display: none;
-    color: #fff;
-    font-size: 1.5rem;
+  }
+  .LogoFoto {
+    display: block;
+    width: 50px;
+    height: auto;
+    margin-right: 1.5rem;
+  }
+  .LogoFoto:hover {
+    filter: drop-shadow(0px 1px 3px var(--color-teme));
+  }
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .NavLinks {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .NavLinks.open {
+    display: flex;
+    margin-top: 0; /* Remove a margem superior quando o menu está aberto */
+  }
+  nav .menu-button {
+    display: block;
+    width: 40px;
+    height: auto;
+    margin-right: 2.3rem;
     cursor: pointer;
   }
-  
-  @media screen and (max-width: 768px) {
-    .navbar-menu {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 70px;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-    }
-  
-    .navbar-menu.active {
-      display: flex;
-    }
-  
-    .navbar-toggle {
-      display: block;
-    }
-  }
-  
+}
+
