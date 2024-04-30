@@ -21,7 +21,6 @@ header {
   z-index: 99;
   box-shadow: 0px 0px 15px 1px var(--section-color);
 }
-
 nav {
   display: flex;
   align-items: center;

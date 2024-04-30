@@ -17,7 +17,7 @@ const APPRoutes = () => {
                 <Route path="/Exercicios" element={<Exercicios/>}/>
                 <Route path="/Login" element={<Login/>}/>
                 <Route path="/Cadastro" element={<Cadastro/>}/>
-                <Route path="/Error404" element={<Error404/>}/>
+                <Route path="*" element={<Error404/>}/>
             </Routes>
         </BrowserRouter>
     )

@@ -1,11 +1,15 @@
 import Footer from "../../Footer"
 import NavBar from "../../NavBar"
-import Section from '../../Section'
+import Container from '../../Container'
+import { Helmet } from "react-helmet"
 const Home = () => {
     return(
         <>
+            <Helmet>
+                <title>Home</title>
+            </Helmet>
             <NavBar/> 
-            <Section />
+            <Container/>
             <Footer/>
         </>
     )

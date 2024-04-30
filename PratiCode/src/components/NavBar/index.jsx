@@ -17,7 +17,7 @@ const NavBar = () => {
         <nav>
           <div className={styles["nav-content"]}>
             <Link to="/">
-              <h1  className={styles.LogoText}>PRATICODE</h1>
+              <h1  className={styles.LogoText}>PratiCode</h1>
               <img src={Logo} alt="Logo" className={styles.LogoFoto} /> 
             </Link>
             <ul className={`${styles.NavLinks} ${menuOpen ? styles.open : ''}`}>
