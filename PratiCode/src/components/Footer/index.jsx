@@ -7,7 +7,7 @@ const Footer = () => {
             <div className={style['footer-container']}>
                 <div className={style['logo-space']}>
                     <img src={Logo} alt="logo alternativa" className={style.logofoter} />
-                    <p>PratiCode 2024</p>
+                    <p></p>
                 </div>
                 <div className={style.information}>
                     <ol>

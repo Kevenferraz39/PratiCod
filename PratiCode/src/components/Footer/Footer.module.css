@@ -23,9 +23,12 @@ footer{
     width: 306px;
     height: 250px;
     color: var(--text-comum);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 .logofoter{
-    width: 100px;
+    width: 50%;
 }
 .logofoter:hover{
     filter: drop-shadow(0px 1px 5px var(--color-teme));
@@ -78,6 +81,10 @@ span{
     color: var(--teme);
     font-weight: bold;
 }
+hr {
+    border-color: var(--color-teme-hover); /* Define a cor da borda */
+}
+
 @media (max-width: 900px){
     footer{
         width: 97%;
@@ -85,8 +92,12 @@ span{
         padding: 10px;
         color:var(--text2);
     }
+    .logofoter{
+        width: 25%;
+    }
     .logo-space{ 
     width: 100%;
+    height: auto;
 }
 
 }

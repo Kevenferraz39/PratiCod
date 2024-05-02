@@ -6,7 +6,10 @@ import Exercicios from './components/pages/Exercicios'
 import Login from './components/pages/Login'
 import Cadastro from './components/pages/Cadastro'
 import Error404 from './components/pages/Error404'
+import Error404Alternate from './components/pages/Error404Alternate' // Importe a segunda página 404
+
 const APPRoutes = () => {
+    const random404 = Math.random() < 0.5 ? <Error404 /> : <Error404Alternate />
 
     return (
         <BrowserRouter>
@@ -17,7 +20,7 @@ const APPRoutes = () => {
                 <Route path="/Exercicios" element={<Exercicios/>}/>
                 <Route path="/Login" element={<Login/>}/>
                 <Route path="/Cadastro" element={<Cadastro/>}/>
-                <Route path="*" element={<Error404/>}/>
+                <Route path="*" element={random404}/> 
             </Routes>
         </BrowserRouter>
     )

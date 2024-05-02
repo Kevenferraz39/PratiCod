@@ -12,28 +12,25 @@
     align-items: center;
     height: 100vh; 
     background-color: var(--background);
+    margin-top: 3rem;
 }
 
 .information_container_404 {
+    padding: 2rem;
     width: 100%;
     padding: 0;
     margin: 0;
     text-align: center; 
     overflow: hidden;
 }
+ .imagem{
+    width: 40%;
+    height: 100%;
+ }
+ @media (max-width: 800px) {
 
-.information_container_404 h1 {
-    font-size: 250px;
-    font-weight: bolder;
-    color: var(--text-grey);
-}
-
-.information_container_404 p {
-    margin-top: 0; /* Remova a margem superior anterior */
-    margin-bottom: 0; /* Remova a margem inferior anterior */
-    font-size: 30px;
-    font-weight: bold;
-    width: 100%;
-    margin-left: 0px;
-    color: var(--text-grey);
+ .imagem{
+    width: 90%;
+    height: 100%;
+ }
  }

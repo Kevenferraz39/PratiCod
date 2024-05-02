@@ -29,7 +29,7 @@ const NavBar = () => {
                 <Link to="/Tags" className={styles.NavLink}><span>Tags</span></Link> 
               </li>
               <li>
-                <Link to="/Exercicios" className={styles.NavLink}><span>Exercicios</span></Link> 
+                <Link to="/Exercicis" className={styles.NavLink}><span>Exercicios</span></Link> 
               </li>
               <li>
                 <Link to="/Sobre" className={styles.NavLink}><span>Sobre</span></Link> 

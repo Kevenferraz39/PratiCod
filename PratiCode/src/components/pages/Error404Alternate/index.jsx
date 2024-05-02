@@ -1,9 +1,10 @@
 import { Helmet } from "react-helmet"
 import NavBar from '../../NavBar';
 import Footer from '../../Footer';
-import Styles from './Page404.module.css'; // Certifique-se de que o caminho está correto
+import Styles from './Error404A.module.css'; 
+import img from '../../../assets/img/svg/error.svg'// Certifique-se de que o caminho está correto
 
-const Error404 = () => {
+const Error404Alternate = () => {
     return(
         <>
             <Helmet>
@@ -11,14 +12,11 @@ const Error404 = () => {
             </Helmet>
             <NavBar/>
             <section className={Styles.information_404}>
-                 <div className={Styles.information_container_404}>
-                    <h1>404</h1>
-                    <p>Page not found!</p>
-                </div>
+                 <img src={img} alt="imagem 404 not found" className={Styles.imagem} />
             </section>
             <Footer />
         </>
     );
 };
 
-export default Error404;
+export default Error404Alternate;
