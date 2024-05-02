@@ -1,4 +1,3 @@
-
 .information_404 {
     display: flex;
     justify-content: center;
@@ -6,7 +5,7 @@
     height: 680px; 
 }
 
-.information-container_404 {
+.information_container_404 {
     width: 100%;
     padding: 0;
     margin: 0;
@@ -14,18 +13,18 @@
     overflow: hidden;
 }
 
-.information-container_404 h1 {
+.information_container_404 h1 {
     font-size: 250px;
     font-weight: bolder;
-    color: var(--slogan2);
+    color: black;
 }
 
-.information-container_404 p {
+.information_container_404 p {
     margin-top: 0; /* Remova a margem superior anterior */
     margin-bottom: 0; /* Remova a margem inferior anterior */
     font-size: 30px;
     font-weight: bold;
     width: 100%;
     margin-left: 0px;
-    color:var(--slogan);
+    color: blue;
 }

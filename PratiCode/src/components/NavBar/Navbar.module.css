@@ -40,18 +40,13 @@ nav {
   padding: 0;
   margin-right: 4rem;
 }
-
-.LogoText{
+.LogoTexto{
   margin: 0;
-  margin-left: 2rem;
-  font-weight: 600;
-  font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 3px;
-  font-size: 2.2rem;
-  color: transparent; /* Torna o texto transparente */
-  -webkit-text-stroke: 1px var(--color-teme);
+  margin-left:0;
+  padding: 0;
+  width: 50%;
 }
-.LogoText:hover{
+.LogoTexto:hover{
   filter: drop-shadow(0px 1px 5px var(--color-teme));
 }
 .LogoFoto {
@@ -67,7 +62,7 @@ ul {
 li span {
   color: var(--text-common);
   font-weight: bolder;
-  margin-right: 1.5rem;
+  margin-right: 2.4rem;
   cursor: pointer;
 }
 
@@ -81,7 +76,7 @@ nav .menu-button{
 
 
 @media (max-width: 800px) {
-  .LogoText {
+  .LogoTexto {
     display: none;
   }
   .LogoFoto {

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from "./Navbar.module.css";
-import Logo from '../../assets/img/png/Logo2.png';
+import Logo from '../../assets/img/png/Logo.png';
+import LogoText from '../../assets/img/png/LogoBFT.png'
 import icon_menu from '../../assets/img/icon/menu.png';
 
 const NavBar = () => {
@@ -17,7 +18,7 @@ const NavBar = () => {
         <nav>
           <div className={styles["nav-content"]}>
             <Link to="/">
-              <h1  className={styles.LogoText}>PratiCode</h1>
+              <img src={LogoText} alt="Logotexto" className={styles.LogoTexto}/>
               <img src={Logo} alt="Logo" className={styles.LogoFoto} /> 
             </Link>
             <ul className={`${styles.NavLinks} ${menuOpen ? styles.open : ''}`}>
