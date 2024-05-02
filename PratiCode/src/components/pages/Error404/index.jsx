@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet"
 import NavBar from '../../NavBar';
 import Styles from './Page404.module.css'; // Certifique-se de que o caminho está correto
 
