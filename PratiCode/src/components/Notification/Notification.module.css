@@ -22,7 +22,7 @@
     font-size: 16px;
     --gradient: linear-gradient(to bottom, var(--color-teme), var(--color-teme-hover), var(--bacground));
     --color: var(var(--color-teme-hover));
-    z-index: 0; /* Garante que a notificação esteja sempre na frente de outros elementos */
+    z-index: 10; /* Garante que a notificação esteja sempre na frente de outros elementos */
 }
 
 /* Restante do seu CSS permanece o mesmo */
