@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from "react-helmet";
 import Footer from "../../Footer";
 import NavBar from "../../NavBar";
+import Styles from './home.module.css'
 import Notification from '../../Notification';
-import Container from '../../Container';
 
 const Home = () => {
     const [showNotification, setShowNotification] = useState(false); // Inicialmente, a notificação não será exibida
@@ -27,7 +27,7 @@ const Home = () => {
                 <title>Home</title>
             </Helmet>
             <NavBar/>
-            <div className="container">
+            <div className={Styles.container}>
                 {showNotification && <Notification />} {/* Exibe a notificação apenas se showNotification for true */}
             </div>
             <Footer/>
