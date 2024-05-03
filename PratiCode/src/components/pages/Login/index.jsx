@@ -31,7 +31,7 @@ const Login = () => {
                                 <a rel="noopener noreferrer" href="#">Esqueceu a senha ?</a>
                             </div>
                         </div>
-                        <Link className="sign" to="/">Logar</Link>
+                        <Link className="sign" to="/Home">Logar</Link>
                     </form>
                     <div className="social-message">
                         <div className="line"></div>
@@ -56,7 +56,7 @@ const Login = () => {
                         </button>
                     </div>
                     <p className="signup">Não tem uma conta? &nbsp; 
-                        <a rel="noopener noreferrer" href="#" className="">Criar</a>
+                        <Link rel="noopener noreferrer" to="/Cadastro" className="">Criar</Link>
                     </p>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Error404 = () => {
     return(
         <>
             <Helmet>
-                <title>Page Not Found || 404</title>
+                <title>404 || Page Not Found !</title>
             </Helmet>
             <NavBar/>
             <section className={Styles.information_404}>

@@ -17,13 +17,13 @@ const NavBar = () => {
       <header>
         <nav>
           <div className={styles["nav-content"]}>
-            <Link to="/">
+            <Link to="/Home">
               <img src={LogoText} alt="Logotexto" className={styles.LogoTexto}/>
               <img src={Logo} alt="Logo" className={styles.LogoFoto} /> 
             </Link>
             <ul className={`${styles.NavLinks} ${menuOpen ? styles.open : ''}`}>
               <li>
-                <Link to="/" className={styles.NavLink}><span>Home</span></Link> 
+                <Link to="/Home" className={styles.NavLink}><span>Home</span></Link> 
               </li>
               <li>
                 <Link to="/Tags" className={styles.NavLink}><span>Tags</span></Link> 
@@ -35,12 +35,13 @@ const NavBar = () => {
                 <Link to="/Sobre" className={styles.NavLink}><span>Sobre</span></Link> 
               </li>
               <li>
-                <Link to="/Login" className={styles.NavLink}><span>Login</span></Link> 
+                <Link to="/" className={styles.NavLink}><span>Login</span></Link> 
               </li>
             </ul>
-          </div>
+
           <div className={styles["nav-icons-container"]}> 
             <img src={icon_menu} alt="menu" className={styles["menu-button"]} onClick={toggleMenu} /> 
+          </div>
           </div>
         </nav>
       </header>
