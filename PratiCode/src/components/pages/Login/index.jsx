@@ -1,8 +1,10 @@
 import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom'
 import './Login.css'
 import baner from '../../../assets/img/png/LogoBFR.png'
 import Loginho from '../../../assets/img/png/Logo.png'
 import Footer from '../../Footer'
+
 
 const Login = () => {
     return(
@@ -29,7 +31,7 @@ const Login = () => {
                                 <a rel="noopener noreferrer" href="#">Esqueceu a senha ?</a>
                             </div>
                         </div>
-                        <button className="sign">Logar</button>
+                        <Link className="sign" to="/">Logar</Link>
                     </form>
                     <div className="social-message">
                         <div className="line"></div>
