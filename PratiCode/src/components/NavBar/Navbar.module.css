@@ -54,6 +54,12 @@ nav {
   padding: 0;
   margin-right: 4rem;
 }
+.NavLink.active span {
+  color: var(--color-teme);
+}
+.NavLink.active span:hover{
+  color: var(--color-teme-hover);
+}
 .LogoTexto{
   margin: 0;
   margin-left:0;

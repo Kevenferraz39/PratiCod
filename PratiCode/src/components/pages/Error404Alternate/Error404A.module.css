@@ -12,7 +12,7 @@
     align-items: center;
     height: 100vh; 
     background-color: var(--background);
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 .information_container_404 {
@@ -24,7 +24,7 @@
     overflow: hidden;
 }
  .imagem{
-    width: 40%;
+    width: 39%;
     height: 100%;
  }
  @media (max-width: 800px) {

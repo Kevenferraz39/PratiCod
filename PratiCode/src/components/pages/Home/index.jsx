@@ -27,7 +27,7 @@ const Home = () => {
                 <title>Home</title>
             </Helmet>
             <NavBar/>
-            <div className={Styles.container}>
+            <div className={Styles.main}>
                 {showNotification && <Notification />} {/* Exibe a notificação apenas se showNotification for true */}
             </div>
             <Footer/>

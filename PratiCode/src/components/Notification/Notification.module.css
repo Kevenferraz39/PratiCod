@@ -12,7 +12,7 @@
     position: absolute; /* Altera para posição absoluta */
     top: 6rem; /* Ajusta conforme necessário */
     right: 20px; /* Ajusta conforme necessário */
-    width: 15rem;
+    width: 17rem;
     height: 6rem;
     background: var(--section-color);
     border-radius: 1rem;
@@ -54,7 +54,7 @@
   }
   
   .notititle {
-    color: var(--color-teme-hover);
+    color: var(--color-teme);
     padding: 0.65rem 0.25rem 0.4rem 1.25rem;
     font-weight: 500;
     font-size: 1.1rem;

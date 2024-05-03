@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styles from "./Navbar.module.css";
 import Logo from '../../assets/img/png/Logo.png';
 import LogoText from '../../assets/img/png/LogoBFT.png'
@@ -7,6 +7,7 @@ import icon_menu from '../../assets/img/icon/menu.png';
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -23,24 +24,24 @@ const NavBar = () => {
             </Link>
             <ul className={`${styles.NavLinks} ${menuOpen ? styles.open : ''}`}>
               <li>
-                <Link to="/Home" className={styles.NavLink}><span>Home</span></Link> 
+                <Link to="/Home" className={`${styles.NavLink} ${location.pathname === '/Home' ? styles.active : ''}`}><span>Home</span></Link> 
               </li>
               <li>
-                <Link to="/Tags" className={styles.NavLink}><span>Tags</span></Link> 
+                <Link to="/Tags" className={`${styles.NavLink} ${location.pathname === '/Tags' ? styles.active : ''}`}><span>Tags</span></Link> 
               </li>
               <li>
-                <Link to="/Exercicis" className={styles.NavLink}><span>Exercicios</span></Link> 
+                <Link to="/Exercicis" className={`${styles.NavLink} ${location.pathname === '/Exercicis' ? styles.active : ''}`}><span>Exercicios</span></Link> 
               </li>
               <li>
-                <Link to="/Sobre" className={styles.NavLink}><span>Sobre</span></Link> 
+                <Link to="/Sobre" className={`${styles.NavLink} ${location.pathname === '/Sobre' ? styles.active : ''}`}><span>Sobre</span></Link> 
               </li>
               <li>
                 <Link to="/" className={styles.NavLink}><span>Login</span></Link> 
               </li>
             </ul>
-          <div className={styles["nav-icons-container"]}> 
-            <img src={icon_menu} alt="menu" className={styles["menu-button"]} onClick={toggleMenu} /> 
-          </div>
+            <div className={styles["nav-icons-container"]}> 
+              <img src={icon_menu} alt="menu" className={styles["menu-button"]} onClick={toggleMenu} /> 
+            </div>
           </div>
         </nav>
       </header>
