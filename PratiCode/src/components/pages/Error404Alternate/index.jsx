@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet"
-import NavBar from '../../NavBar';
-import Footer from '../../Footer';
-import Styles from './Error404A.module.css'; 
-import img from '../../../assets/img/svg/error.svg'// Certifique-se de que o caminho está correto
+import NavBar from '../../NavBar'
+import Footer from '../../Footer'
+import Styles from './Error404A.module.css' 
+import img from '../../../assets/img/svg/error.svg'
 
 const Error404Alternate = () => {
     return(
@@ -16,7 +16,7 @@ const Error404Alternate = () => {
             </section>
             <Footer />
         </>
-    );
-};
+    )
+}
 
-export default Error404Alternate;
+export default Error404Alternate
