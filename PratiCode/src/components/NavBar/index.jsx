@@ -38,7 +38,6 @@ const NavBar = () => {
                 <Link to="/" className={styles.NavLink}><span>Login</span></Link> 
               </li>
             </ul>
-
           <div className={styles["nav-icons-container"]}> 
             <img src={icon_menu} alt="menu" className={styles["menu-button"]} onClick={toggleMenu} /> 
           </div>
