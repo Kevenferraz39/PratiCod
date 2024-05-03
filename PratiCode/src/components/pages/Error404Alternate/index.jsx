@@ -12,7 +12,7 @@ const Error404Alternate = () => {
             </Helmet>
             <NavBar/>
             <section className={Styles.information_404}>
-                 <img src={img} alt="imagem 404 not found" className={Styles.imagem} />
+                 <img src={img} alt="imagem ilustrativa 404 not found" className={Styles.imagem} />
             </section>
             <Footer />
         </>
