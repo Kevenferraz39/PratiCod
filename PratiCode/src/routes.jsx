@@ -20,6 +20,7 @@ const APPRoutes = () => {
                 <Route path="/Exercicios" element={<Exercicios/>}/>
                 <Route path="/Login" element={<Login/>}/>
                 <Route path="/Cadastro" element={<Cadastro/>}/>
+                <Route path="/Login" element={<Login/>}/>
                 <Route path="*" element={random404}/> 
             </Routes>
         </BrowserRouter>

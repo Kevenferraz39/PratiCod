@@ -34,6 +34,9 @@ const NavBar = () => {
               <li>
                 <Link to="/Sobre" className={styles.NavLink}><span>Sobre</span></Link> 
               </li>
+              <li>
+                <Link to="/Login" className={styles.NavLink}><span>Login</span></Link> 
+              </li>
             </ul>
           </div>
           <div className={styles["nav-icons-container"]}> 

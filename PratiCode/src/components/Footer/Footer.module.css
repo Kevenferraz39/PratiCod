@@ -7,7 +7,7 @@
     --section-color:#16181D;
 }
 footer{
-    width: 98.5%;
+    width: 100vw;
     background-color: var(--section-color);
     padding: 10px;
     color:var(--text2);
@@ -82,12 +82,15 @@ span{
     font-weight: bold;
 }
 hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     border-color: var(--color-teme-hover); /* Define a cor da borda */
 }
 
 @media (max-width: 900px){
     footer{
-        width: 97%;
+        width: 100vw;
         background-color: var(--section-color);
         padding: 10px;
         color:var(--text2);
