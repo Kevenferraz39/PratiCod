@@ -13,11 +13,125 @@ const Tags = () => {
             </Helmet>
             <NavBar />
             <div className={Styles.main}>
-                <div className="containerLinks">
-                    <div className="pageLink">
-                        <img src={html_Icon} alt="icone do html" />
-                        <h3>Tags HTML</h3>
-                        <Link className={Styles.button}><span>Ver mais</span></Link>
+                <div className={Styles.containerLinks}>
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+                    
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={html_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Tags HTML</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
                     </div>
                 </div>
             </div>

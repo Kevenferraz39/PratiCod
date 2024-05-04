@@ -1,24 +1,93 @@
-:root{
-    --bacground:#282c34;
-    --text-comum:#D3D4D7;
-    --color-teme:#9901c3;
-    --color-teme-hover:#740685;
-    --section-color:#16181D;
+:root {
+    --background: #282c34;
+    --text-common: #D3D4D7;
+    --color-theme: #9901c3;
+    --color-theme-hover: #740685;
+    --section-color: #16181D;
 }
-.main{
+
+.main {
     width: 100%;
     min-height: 100vh;
-    background-color: var(--bacground);
+    background-color: var(--background);
 }
-.containerLinks{
+
+.containerLinks {
+    margin-top: 5rem;
     display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    height:100vh;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2rem;
+    gap: 2.2rem;
     justify-content: space-around;
-    width: 90%;
-    height: 100%;
 }
-.pageLink{
-    background-color: red;
+
+.pageLink {
+    width: 200px;
+    height: 200px; 
+    border-radius: 1rem;
+    padding: 0.1rem;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 1px var(--section-color);
 }
-.button{
-    color: var(--text-comum);
+
+.containerImg {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerImg img {
+    width: 100%;
+    height: auto;
+}
+
+.containerTitle {
+    height: auto;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTitle h3 {
+    margin-top: 1rem; /* Adicionado espaçamento */
+    text-align: center;
+    color: var(--text-common); /* Adicionado cor do texto */
+}
+
+.containerBtn {
+    height: auto;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem; /* Adicionado espaçamento */
+}
+
+.button {
+    background-color: var(--section-color);
+    padding: 0.4rem 3rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.7rem;
+    color: var(--text-common);
+}
+.button:hover{
+    background-color: var(--color-theme);
+}
+.button span {
+    text-align: center;
+    align-items: center;
+}
+
+.button span {
+    text-align: center;
+    align-items: center;
 }
