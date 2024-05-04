@@ -88,12 +88,20 @@ hr {
     border-color: var(--color-teme-hover); /* Define a cor da borda */
 }
 
-@media (max-width: 900px){
+@media (max-width: 800px){
     footer{
         width: 100vw;
         background-color: var(--section-color);
         padding: 10px;
         color:var(--text2);
+    }
+    .footer-container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
     .logofoter{
         width: 25%;
@@ -102,5 +110,14 @@ hr {
     width: 100%;
     height: auto;
 }
-
 }
+
+@media only screen and (max-width: 768px) {
+    hr {
+        display: none;
+     }
+     p{
+         display: none;
+     }
+  }
+  

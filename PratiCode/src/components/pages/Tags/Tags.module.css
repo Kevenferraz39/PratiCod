@@ -17,7 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     width:90%;
-    height:100vh;
+    height:100%;
     margin-left:auto;
     margin-right:auto;
     padding:2rem;
@@ -80,7 +80,8 @@
     color: var(--text-common);
 }
 .button:hover{
-    background-color: var(--color-theme);
+    color: var(--color-theme-hover);
+    background-color: var(--text-common);
 }
 .button span {
     text-align: center;
@@ -90,4 +91,8 @@
 .button span {
     text-align: center;
     align-items: center;
+}
+@media (max-width: 800px) {
+
+
 }
