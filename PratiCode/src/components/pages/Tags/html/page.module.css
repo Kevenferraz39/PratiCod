@@ -8,6 +8,7 @@
     --color-theme-hover: #740685;
     --section-color: #16181D;
     --section-color-hover: #1c1f25;
+    --color-theme-titulo:#c8c8c9;
 }
 .containerr{
     width: 100%;
@@ -55,14 +56,11 @@
     margin-right: auto;
     text-align: justify;
 }
-.container_text h2,h3{
+.container_text h2,h3,h3{
     text-align: left;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    color: var(--color-theme);
-}
-.container_text h3{
-    color: var(--text-common-hover);
+    color: var(--color-theme-titulo);
 }
 .container_text p,li{
     margin-bottom: 1rem;

@@ -1,113 +1,447 @@
 [
-    { "tag": "<html>", "route": "/html" },
-    { "tag": "<head>", "route": "/head" },
-    { "tag": "<title>", "route": "/title" },
-    { "tag": "<base>", "route": "/base" },
-    { "tag": "<link>", "route": "/link" },
-    { "tag": "<meta>", "route": "/meta" },
-    { "tag": "<style>", "route": "/style" },
-    { "tag": "<script>", "route": "/script" },
-    { "tag": "<noscript>", "route": "/noscript" },
-    { "tag": "<body>", "route": "/body" },
-    { "tag": "<article>", "route": "/article" },
-    { "tag": "<header>", "route": "/header" },
-    { "tag": "<footer>", "route": "/footer" },
-    { "tag": "<nav>", "route": "/nav" },
-    { "tag": "<section>", "route": "/section" },
-    { "tag": "<aside>", "route": "/aside" },
-    { "tag": "<main>", "route": "/main" },
-    { "tag": "<address>", "route": "/address" },
-    { "tag": "<h1>", "route": "/h1" },
-    { "tag": "<p>", "route": "/p" },
-    { "tag": "<hr>", "route": "/hr" },
-    { "tag": "<pre>", "route": "/pre" },
-    { "tag": "<blockquote>", "route": "/blockquote" },
-    { "tag": "<ol>", "route": "/ol" },
-    { "tag": "<ul>", "route": "/ul" },
-    { "tag": "<li>", "route": "/li" },
-    { "tag": "<dl>", "route": "/dl" },
-    { "tag": "<dt>", "route": "/dt" },
-    { "tag": "<dd>", "route": "/dd" },
-    { "tag": "<figure>", "route": "/figure" },
-    { "tag": "<figcaption>", "route": "/figcaption" },
-    { "tag": "<div>", "route": "/div" },
-    { "tag": "<a>", "route": "/a" },
-    { "tag": "<em>", "route": "/em" },
-    { "tag": "<strong>", "route": "/strong" },
-    { "tag": "<small>", "route": "/small" },
-    { "tag": "<s>", "route": "/s" },
-    { "tag": "<cite>", "route": "/cite" },
-    { "tag": "<q>", "route": "/q" },
-    { "tag": "<dfn>", "route": "/dfn" },
-    { "tag": "<abbr>", "route": "/abbr" },
-    { "tag": "<data>", "route": "/data" },
-    { "tag": "<time>", "route": "/time" },
-    { "tag": "<code>", "route": "/code" },
-    { "tag": "<var>", "route": "/var" },
-    { "tag": "<samp>", "route": "/samp" },
-    { "tag": "<kbd>", "route": "/kbd" },
-    { "tag": "<sub>", "route": "/sub" },
-    { "tag": "<sup>", "route": "/sup" },
-    { "tag": "<i>", "route": "/i" },
-    { "tag": "<b>", "route": "/b" },
-    { "tag": "<u>", "route": "/u" },
-    { "tag": "<mark>", "route": "/mark" },
-    { "tag": "<ruby>", "route": "/ruby" },
-    { "tag": "<rt>", "route": "/rt" },
-    { "tag": "<rp>", "route": "/rp" },
-    { "tag": "<bdi>", "route": "/bdi" },
-    { "tag": "<bdo>", "route": "/bdo" },
-    { "tag": "<span>", "route": "/span" },
-    { "tag": "<br>", "route": "/br" },
-    { "tag": "<wbr>", "route": "/wbr" },
-    { "tag": "<ins>", "route": "/ins" },
-    { "tag": "<del>", "route": "/del" },
-    { "tag": "<img>", "route": "/img" },
-    { "tag": "<iframe>", "route": "/iframe" },
-    { "tag": "<embed>", "route": "/embed" },
-    { "tag": "<object>", "route": "/object" },
-    { "tag": "<param>", "route": "/param" },
-    { "tag": "<video>", "route": "/video" },
-    { "tag": "<audio>", "route": "/audio" },
-    { "tag": "<source>", "route": "/source" },
-    { "tag": "<track>", "route": "/track" },
-    { "tag": "<map>", "route": "/map" },
-    { "tag": "<area>", "route": "/area" },
-    { "tag": "<canvas>", "route": "/canvas" },
-    { "tag": "<svg>", "route": "/svg" },
-    { "tag": "<math>", "route": "/math" },
-    { "tag": "<table>", "route": "/table" },
-    { "tag": "<caption>", "route": "/caption" },
-    { "tag": "<colgroup>", "route": "/colgroup" },
-    { "tag": "<col>", "route": "/col" },
-    { "tag": "<tbody>", "route": "/tbody" },
-    { "tag": "<thead>", "route": "/thead" },
-    { "tag": "<tfoot>", "route": "/tfoot" },
-    { "tag": "<tr>", "route": "/tr" },
-    { "tag": "<td>", "route": "/td" },
-    { "tag": "<th>", "route": "/th" },
-    { "tag": "<form>", "route": "/form" },
-    { "tag": "<label>", "route": "/label" },
-    { "tag": "<input>", "route": "/input" },
-    { "tag": "<button>", "route": "/button" },
-    { "tag": "<select>", "route": "/select" },
-    { "tag": "<datalist>", "route": "/datalist" },
-    { "tag": "<optgroup>", "route": "/optgroup" },
-    { "tag": "<option>", "route": "/option" },
-    { "tag": "<textarea>", "route": "/textarea" },
-    { "tag": "<output>", "route": "/output" },
-    { "tag": "<progress>", "route": "/progress" },
-    { "tag": "<meter>", "route": "/meter" },
-    { "tag": "<fieldset>", "route": "/fieldset" },
-    { "tag": "<legend>", "route": "/legend" },
-    { "tag": "<details>", "route": "/details" },
-    { "tag": "<summary>", "route": "/summary" },
-    { "tag": "<dialog>", "route": "/dialog" },
-    { "tag": "<menu>", "route": "/menu" },
-    { "tag": "<menuitem>", "route": "/menuitem" },
-    { "tag": "<script>", "route": "/script" },
-    { "tag": "<noscript>", "route": "/noscript" },
-    { "tag": "<template>", "route": "/template" },
-    { "tag": "<slot>", "route": "/slot" },
-    { "tag": "<caption>", "route": "/caption" }
+    {
+        "tag": "<html>",
+        "route": "/html"
+    },
+    {
+        "tag": "<head>",
+        "route": "/head"
+    },
+    {
+        "tag": "<title>",
+        "route": "/title"
+    },
+    {
+        "tag": "<base>",
+        "route": "/base"
+    },
+    {
+        "tag": "<link>",
+        "route": "/link"
+    },
+    {
+        "tag": "<meta>",
+        "route": "/meta"
+    },
+    {
+        "tag": "<style>",
+        "route": "/style"
+    },
+    {
+        "tag": "<script>",
+        "route": "/script"
+    },
+    {
+        "tag": "<noscript>",
+        "route": "/noscript"
+    },
+    {
+        "tag": "<body>",
+        "route": "/body"
+    },
+    {
+        "tag": "<article>",
+        "route": "/article"
+    },
+    {
+        "tag": "<header>",
+        "route": "/header"
+    },
+    {
+        "tag": "<footer>",
+        "route": "/footer"
+    },
+    {
+        "tag": "<nav>",
+        "route": "/nav"
+    },
+    {
+        "tag": "<section>",
+        "route": "/section"
+    },
+    {
+        "tag": "<aside>",
+        "route": "/aside"
+    },
+    {
+        "tag": "<main>",
+        "route": "/main"
+    },
+    {
+        "tag": "<address>",
+        "route": "/address"
+    },
+    {
+        "tag": "<h1>",
+        "route": "/h1"
+    },
+    {
+        "tag": "<p>",
+        "route": "/p"
+    },
+    {
+        "tag": "<hr>",
+        "route": "/hr"
+    },
+    {
+        "tag": "<pre>",
+        "route": "/pre"
+    },
+    {
+        "tag": "<blockquote>",
+        "route": "/blockquote"
+    },
+    {
+        "tag": "<ol>",
+        "route": "/ol"
+    },
+    {
+        "tag": "<ul>",
+        "route": "/ul"
+    },
+    {
+        "tag": "<li>",
+        "route": "/li"
+    },
+    {
+        "tag": "<dl>",
+        "route": "/dl"
+    },
+    {
+        "tag": "<dt>",
+        "route": "/dt"
+    },
+    {
+        "tag": "<dd>",
+        "route": "/dd"
+    },
+    {
+        "tag": "<figure>",
+        "route": "/figure"
+    },
+    {
+        "tag": "<figcaption>",
+        "route": "/figcaption"
+    },
+    {
+        "tag": "<div>",
+        "route": "/div"
+    },
+    {
+        "tag": "<a>",
+        "route": "/a"
+    },
+    {
+        "tag": "<em>",
+        "route": "/em"
+    },
+    {
+        "tag": "<strong>",
+        "route": "/strong"
+    },
+    {
+        "tag": "<small>",
+        "route": "/small"
+    },
+    {
+        "tag": "<s>",
+        "route": "/s"
+    },
+    {
+        "tag": "<cite>",
+        "route": "/cite"
+    },
+    {
+        "tag": "<q>",
+        "route": "/q"
+    },
+    {
+        "tag": "<dfn>",
+        "route": "/dfn"
+    },
+    {
+        "tag": "<abbr>",
+        "route": "/abbr"
+    },
+    {
+        "tag": "<data>",
+        "route": "/data"
+    },
+    {
+        "tag": "<time>",
+        "route": "/time"
+    },
+    {
+        "tag": "<code>",
+        "route": "/code"
+    },
+    {
+        "tag": "<var>",
+        "route": "/var"
+    },
+    {
+        "tag": "<samp>",
+        "route": "/samp"
+    },
+    {
+        "tag": "<kbd>",
+        "route": "/kbd"
+    },
+    {
+        "tag": "<sub>",
+        "route": "/sub"
+    },
+    {
+        "tag": "<sup>",
+        "route": "/sup"
+    },
+    {
+        "tag": "<i>",
+        "route": "/i"
+    },
+    {
+        "tag": "<b>",
+        "route": "/b"
+    },
+    {
+        "tag": "<u>",
+        "route": "/u"
+    },
+    {
+        "tag": "<mark>",
+        "route": "/mark"
+    },
+    {
+        "tag": "<ruby>",
+        "route": "/ruby"
+    },
+    {
+        "tag": "<rt>",
+        "route": "/rt"
+    },
+    {
+        "tag": "<rp>",
+        "route": "/rp"
+    },
+    {
+        "tag": "<bdi>",
+        "route": "/bdi"
+    },
+    {
+        "tag": "<bdo>",
+        "route": "/bdo"
+    },
+    {
+        "tag": "<span>",
+        "route": "/span"
+    },
+    {
+        "tag": "<br>",
+        "route": "/br"
+    },
+    {
+        "tag": "<wbr>",
+        "route": "/wbr"
+    },
+    {
+        "tag": "<ins>",
+        "route": "/ins"
+    },
+    {
+        "tag": "<del>",
+        "route": "/del"
+    },
+    {
+        "tag": "<img>",
+        "route": "/img"
+    },
+    {
+        "tag": "<iframe>",
+        "route": "/iframe"
+    },
+    {
+        "tag": "<embed>",
+        "route": "/embed"
+    },
+    {
+        "tag": "<object>",
+        "route": "/object"
+    },
+    {
+        "tag": "<param>",
+        "route": "/param"
+    },
+    {
+        "tag": "<video>",
+        "route": "/video"
+    },
+    {
+        "tag": "<audio>",
+        "route": "/audio"
+    },
+    {
+        "tag": "<source>",
+        "route": "/source"
+    },
+    {
+        "tag": "<track>",
+        "route": "/track"
+    },
+    {
+        "tag": "<map>",
+        "route": "/map"
+    },
+    {
+        "tag": "<area>",
+        "route": "/area"
+    },
+    {
+        "tag": "<canvas>",
+        "route": "/canvas"
+    },
+    {
+        "tag": "<svg>",
+        "route": "/svg"
+    },
+    {
+        "tag": "<math>",
+        "route": "/math"
+    },
+    {
+        "tag": "<table>",
+        "route": "/table"
+    },
+    {
+        "tag": "<caption>",
+        "route": "/caption"
+    },
+    {
+        "tag": "<colgroup>",
+        "route": "/colgroup"
+    },
+    {
+        "tag": "<col>",
+        "route": "/col"
+    },
+    {
+        "tag": "<tbody>",
+        "route": "/tbody"
+    },
+    {
+        "tag": "<thead>",
+        "route": "/thead"
+    },
+    {
+        "tag": "<tfoot>",
+        "route": "/tfoot"
+    },
+    {
+        "tag": "<tr>",
+        "route": "/tr"
+    },
+    {
+        "tag": "<td>",
+        "route": "/td"
+    },
+    {
+        "tag": "<th>",
+        "route": "/th"
+    },
+    {
+        "tag": "<form>",
+        "route": "/form"
+    },
+    {
+        "tag": "<label>",
+        "route": "/label"
+    },
+    {
+        "tag": "<input>",
+        "route": "/input"
+    },
+    {
+        "tag": "<button>",
+        "route": "/button"
+    },
+    {
+        "tag": "<select>",
+        "route": "/select"
+    },
+    {
+        "tag": "<datalist>",
+        "route": "/datalist"
+    },
+    {
+        "tag": "<optgroup>",
+        "route": "/optgroup"
+    },
+    {
+        "tag": "<option>",
+        "route": "/option"
+    },
+    {
+        "tag": "<textarea>",
+        "route": "/textarea"
+    },
+    {
+        "tag": "<output>",
+        "route": "/output"
+    },
+    {
+        "tag": "<progress>",
+        "route": "/progress"
+    },
+    {
+        "tag": "<meter>",
+        "route": "/meter"
+    },
+    {
+        "tag": "<fieldset>",
+        "route": "/fieldset"
+    },
+    {
+        "tag": "<legend>",
+        "route": "/legend"
+    },
+    {
+        "tag": "<details>",
+        "route": "/details"
+    },
+    {
+        "tag": "<summary>",
+        "route": "/summary"
+    },
+    {
+        "tag": "<dialog>",
+        "route": "/dialog"
+    },
+    {
+        "tag": "<menu>",
+        "route": "/menu"
+    },
+    {
+        "tag": "<menuitem>",
+        "route": "/menuitem"
+    },
+    {
+        "tag": "<script>",
+        "route": "/script"
+    },
+    {
+        "tag": "<noscript>",
+        "route": "/noscript"
+    },
+    {
+        "tag": "<template>",
+        "route": "/template"
+    },
+    {
+        "tag": "<slot>",
+        "route": "/slot"
+    },
+    {
+        "tag": "<caption>",
+        "route": "/caption"
+    }
+    
 ]
