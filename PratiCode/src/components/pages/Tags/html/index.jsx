@@ -81,13 +81,11 @@ const Pagehtml = () => {
                              </div>
                         </div>
                         <p><strong>Explicação Detalhada:</strong> A tag {'<img>'} é usada para incorporar imagens em uma página da web. Ela requer dois atributos principais: <code>src</code>, que especifica o caminho da imagem, e <code>alt</code>, que fornece uma descrição textual da imagem. A descrição é importante para acessibilidade, e também é exibida quando a imagem não pode ser carregada.</p>
-
-                        
+             
                     </div>   
                 </div>
                 <Footer/>
             </div>
-           
            
         </>
     )
