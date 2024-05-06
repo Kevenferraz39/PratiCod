@@ -27,13 +27,13 @@
     padding-top: 20px;
 }
 .sideNav span {
-    padding: 6px 8px 6px 6px;
+    padding: 6px 8px 6px 15px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     text-align: left;
-    margin-left:1rem;
     color: var(--text-common);
     display: block;
+    font-weight: 500;
   }
   
   .sideNav span:hover {
