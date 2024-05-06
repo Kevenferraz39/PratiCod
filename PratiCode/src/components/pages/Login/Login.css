@@ -202,15 +202,12 @@
       }
   }
 
-  @media only screen and (min-width: 390px){
+  @media (max-width: 390px){
     .containerImagem{
       display: none;
   }
   .loginho {
     display: none;
-  }
-  .containerImagem img{
-      display: none;
   }
   .containerForms{
       width: 100%;

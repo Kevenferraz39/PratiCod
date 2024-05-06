@@ -12,9 +12,9 @@ const Login = () => {
             <Helmet>
                 <title>Login</title>
             </Helmet>
-        <div className="containerLogin">
+        <div className="containerLogin"> 
             <div className="containerImagem">
-                <img src={baner} alt="imagem baner" />
+               <img src={baner} alt="imagem banner" />
             </div>
             <div className="containerForms">
                         <div className="form-container">

@@ -1,0 +1,129 @@
+:root {
+    --code:rgb(107, 196, 255);
+    --background: #282c34;
+    --text-common: #D3D4D7;
+    --strong:rgb(172, 0, 202);
+    --text-common-hover: #c8c8c9;
+    --color-theme: #9901c3;
+    --color-theme-hover: #740685;
+    --section-color: #16181D;
+    --section-color-hover: #1c1f25;
+}
+.containerr{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background);
+}
+
+.sideNav{
+    height: 100%;
+    width: 15%;
+    float:left;
+    z-index: 1;
+    margin-top: 5rem;
+    left: 0;
+    background-color: var(--section-color);
+    overflow-x: scroll;
+    padding-top: 20px;
+}
+.sideNav span {
+    padding: 6px 8px 6px 6px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: left;
+    margin-left:1rem;
+    color: var(--text-common);
+    display: block;
+  }
+  
+  .sideNav span:hover {
+    color:var(--color-theme-hover);
+    background-color: var(--section-color-hover);
+  }
+  .main {
+    width: 85%;
+    float:right;
+    height: 100vh;
+    background-color: var(--background);
+    margin-top:5rem;
+}
+.container_text{
+    padding: 2rem;
+    width: 85%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.container_text h2,h3{
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: var(--color-theme);
+}
+.container_text h3{
+    color: var(--text-common-hover);
+}
+.container_text p,li{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.container_text strong{
+    color: var(--strong);
+}
+.container_text code{
+    color: var(--code);
+}
+
+.codigoPrint {
+    width: 600px;
+    max-height: auto; 
+    background-color: var(--section-color);
+    border-radius: 1rem;
+}
+
+.containerBol {
+    width: 100%;
+    height: 1rem;
+    padding: 5px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.boll1, .boll2, .boll3 {
+    width: 2%;
+    height: 80%;
+    border-radius: 90%;
+}
+
+.boll1 {
+    background-color: rgb(62, 243, 7);
+    margin-left: 0.5rem;
+}
+
+.boll2 {
+    background-color: yellow;
+}
+
+.boll3 {
+    background-color: red;
+}
+
+.codigo {
+    width: 90%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+   
+}
+
+.codigo pre {
+    word-wrap: break-word; 
+    white-space: pre-wrap; 
+}

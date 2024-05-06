@@ -1,0 +1,13 @@
+:root {
+    --background: #282c34;
+    --text-common: #D3D4D7;
+    --color-theme: #9901c3;
+    --color-theme-hover: #740685;
+    --section-color: #16181D;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background);
+}

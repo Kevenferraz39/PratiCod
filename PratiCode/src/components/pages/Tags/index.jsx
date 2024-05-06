@@ -30,7 +30,7 @@ const Tags = () => {
                             <h3>Tags HTML 5</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link to="/tagHtml" className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagehtml" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
                     
@@ -42,7 +42,7 @@ const Tags = () => {
                             <h3>CSS 3</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagecss" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
 
@@ -54,7 +54,7 @@ const Tags = () => {
                             <h3>JavaScript</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagejs" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
 
@@ -66,7 +66,7 @@ const Tags = () => {
                             <h3>SQL</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagesql" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
 
@@ -78,7 +78,7 @@ const Tags = () => {
                             <h3>PHP</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagephp" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
 
@@ -90,7 +90,7 @@ const Tags = () => {
                             <h3>React js</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagereact" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
 
@@ -102,7 +102,7 @@ const Tags = () => {
                             <h3>Node js</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagenode" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
 
@@ -114,7 +114,7 @@ const Tags = () => {
                             <h3>JSON</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagejson" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
 
@@ -126,7 +126,7 @@ const Tags = () => {
                             <h3>Git</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pagegit" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
 
@@ -138,7 +138,7 @@ const Tags = () => {
                             <h3>Ruby</h3>
                         </div>
                         <div className={Styles.containerBtn}>
-                            <Link className={Styles.button}><span>Ver mais</span></Link>
+                            <Link to="/Pageruby" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
                 </div>
