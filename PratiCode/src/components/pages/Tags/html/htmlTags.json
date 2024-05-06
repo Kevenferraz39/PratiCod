@@ -6,7 +6,7 @@
     {
         "tag": "<head>",
         "route": "/head"
-    },
+    }, 
     {
         "tag": "<title>",
         "route": "/title"

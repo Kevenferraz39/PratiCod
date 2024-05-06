@@ -49,7 +49,7 @@ const Pagehtml = () => {
                             <pre>{`<h1>Meu Título Principal</h1>`}</pre>
                             </div>
                         </div>
-
+ 
                         <p><strong>Explicação Detalhada:</strong> O elemento {'<h1>'} é usado para definir um cabeçalho de nível 1, indicando o título principal da página. Geralmente, é o maior e mais importante cabeçalho em uma página da web, e deve ser usado com moderação para manter a hierarquia adequada.</p>
 
                         <h3>Tag {'<p>'} - Parágrafo</h3>
@@ -83,10 +83,9 @@ const Pagehtml = () => {
                         <p><strong>Explicação Detalhada:</strong> A tag {'<img>'} é usada para incorporar imagens em uma página da web. Ela requer dois atributos principais: <code>src</code>, que especifica o caminho da imagem, e <code>alt</code>, que fornece uma descrição textual da imagem. A descrição é importante para acessibilidade, e também é exibida quando a imagem não pode ser carregada.</p>
              
                     </div>   
-                </div>
+                </div> 
                 <Footer/>
             </div>
-           
         </>
     )
 }
