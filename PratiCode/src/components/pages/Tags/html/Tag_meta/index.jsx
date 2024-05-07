@@ -27,11 +27,11 @@ const Tag_meta = () => {
 
                         <p>Os usos comuns da tag <code>{'<meta>'}</code> incluem:</p>
                         <ul>
-                            <li>Especificar o conjunto de caracteres (charset) usado no documento</li>
-                            <li>Definir a viewport para dispositivos móveis</li>
-                            <li>Fornecer descrições e palavras-chave para mecanismos de busca</li>
-                            <li>Definir autor, data de criação e outras informações de metadados</li>
-                            <li>Controlar o comportamento de indexação de mecanismos de busca</li>
+                            <li>- Especificar o conjunto de caracteres (charset) usado no documento;</li>
+                            <li>- Definir a viewport para dispositivos móveis</li>
+                            <li>- Fornecer descrições e palavras-chave para mecanismos de busca;</li>
+                            <li>- Definir autor, data de criação e outras informações de metadados;</li>
+                            <li>- Controlar o comportamento de indexação de mecanismos de busca;</li>
                         </ul>
 
                         <h3>Exemplo de Uso:</h3>
