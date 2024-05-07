@@ -125,6 +125,86 @@
     word-wrap: break-word; 
     white-space: pre-wrap; 
 }
+/* Estilo do scroll menu */
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    background-color: var(--section-color);
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+}
+
+.scrollmenu a:hover {
+    background-color: var(--background);
+    font-weight: bold;
+}
+
+.main::-webkit-scrollbar {
+    width: 3px;
+    padding: 0;
+    height: 2px;
+}
+
+.main::-webkit-scrollbar-track {
+    background: var(--section-color);
+}
+
+.main::-webkit-scrollbar-thumb {
+    background: var(--section-color);
+}
+
+.main::-webkit-scrollbar-thumb:hover {
+    background: var(--color-teme);
+}
+
+/* Estilo do scroll menu */
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    background-color: var(--section-color);
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+}
+
+.scrollmenu a:hover {
+    background-color: var(--background);
+    font-weight: bold;
+}
+
+.sideNav::-webkit-scrollbar {
+    width: 3px;
+    padding: 0;
+    height: 2px;
+}
+
+.sideNav::-webkit-scrollbar-track {
+    background: var(--section-color);
+}
+
+.sideNav::-webkit-scrollbar-thumb {
+    background: var(--section-color);
+}
+
+.sideNav::-webkit-scrollbar-thumb:hover {
+    background: var(--color-teme);
+}
+
 /* CSS padrão */
 @media (max-width: 800px) {
     .containerr {
@@ -258,42 +338,3 @@
     }
 }
 
-/* Estilo do scroll menu */
-.scrollmenu {
-    overflow: auto;
-    white-space: nowrap;
-    margin-bottom: -1rem;
-    margin-left: -1rem;
-    background-color: var(--section-color);
-}
-
-.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 0.2rem 1rem;
-    text-decoration: none;
-}
-
-.scrollmenu a:hover {
-    background-color: var(--background);
-    font-weight: bold;
-}
-
-.sideNav::-webkit-scrollbar {
-    width: 3px;
-    padding: 0;
-    height: 2px;
-}
-
-.sideNav::-webkit-scrollbar-track {
-    background: var(--section-color);
-}
-
-.sideNav::-webkit-scrollbar-thumb {
-    background: var(--section-color);
-}
-
-.sideNav::-webkit-scrollbar-thumb:hover {
-    background: var(--color-teme);
-}
