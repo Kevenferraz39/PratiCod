@@ -21,7 +21,7 @@ const Tag_ol = () => {
                     ))}
                 </div>
                 <div className={Styles.main}>
-                    <div className={Styles.container_text}>
+                    <div className={Styles.container_text}>      
                         <h2>Para que serve a Tag <code>{'<ol>'}</code> ?</h2>
                         <p>A tag <code>{'<ol>'}</code> é usada para criar listas ordenadas, onde os itens da lista são numerados sequencialmente.</p>
 

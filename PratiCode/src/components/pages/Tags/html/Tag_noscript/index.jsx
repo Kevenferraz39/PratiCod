@@ -5,7 +5,7 @@ import NavBar from '../../../../NavBar';
 import Footer from '../../../../Footer';
 import htmlTags from '../htmlTags.json';
 
-const Tag_noscript = () => {
+const Tag_noscript = () => {  
     return (
         <>
             <Helmet>
@@ -55,6 +55,6 @@ const Tag_noscript = () => {
             </div>
         </>
     );
-}
+} 
 
 export default Tag_noscript;
