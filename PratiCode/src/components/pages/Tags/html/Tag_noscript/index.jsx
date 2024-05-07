@@ -5,10 +5,10 @@ import NavBar from '../../../../NavBar';
 import Footer from '../../../../Footer';
 import htmlTags from'../htmlTags.json'
 
-const Tag_title = () =>{
+const Tag_noscript = () =>{
     return(
         <>
         </>
     )
 }
-export default Tag_title
+export default Tag_noscript
