@@ -18,7 +18,7 @@
 
 .sideNav{
     height: 100%;
-    width: 15%;
+    width: 13%;
     float:left;
     z-index: 1;
     margin-top: 5rem;
@@ -30,7 +30,7 @@
 .sideNav span {
     padding: 6px 8px 6px 15px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 19px;
     text-align: left;
     color: var(--text-common);
     display: block;
@@ -170,7 +170,7 @@
     
     .container_text {
         padding: 2rem;
-        width: 85%;
+        width: 80%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -182,7 +182,6 @@
         text-align: left;
         margin-bottom: 1rem;
         margin-top: 1rem;
-        color: var(--color-theme);
     }
     
     .container_text h3 {
@@ -191,6 +190,7 @@
     
     .container_text p,
     li {
+        display: block;
         margin-bottom: 1rem;
         margin-top: 1rem;
     }

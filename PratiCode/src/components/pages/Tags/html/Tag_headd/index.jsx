@@ -5,7 +5,7 @@ import NavBar from '../../../../NavBar';
 import Footer from '../../../../Footer';
 import htmlTags from'../htmlTags.json';
 
-const Tag_head = () => {
+const Tag_headd = () => {
     return (
         <>
             <Helmet>
@@ -87,4 +87,4 @@ const Tag_head = () => {
     );
 }
 
-export default Tag_head;
+export default Tag_headd
