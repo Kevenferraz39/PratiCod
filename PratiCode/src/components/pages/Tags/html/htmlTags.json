@@ -1,447 +1,447 @@
 [
     {
         "tag": "<html>",
-        "route": "/html"
+        "route": "/Tag_html"
     },
     {
         "tag": "<head>",
-        "route": "/head"
+        "route": "/Tag_head"
     }, 
     {
         "tag": "<title>",
-        "route": "/title"
+        "route": "/Tag_title"
     },
     {
         "tag": "<base>",
-        "route": "/base"
+        "route": "/Tag_base"
     },
     {
         "tag": "<link>",
-        "route": "/link"
+        "route": "/Tag_link"
     },
     {
         "tag": "<meta>",
-        "route": "/meta"
+        "route": "/Tag_meta"
     },
     {
         "tag": "<style>",
-        "route": "/style"
+        "route": "/Tag_style"
     },
     {
         "tag": "<script>",
-        "route": "/script"
+        "route": "/Tag_script"
     },
     {
         "tag": "<noscript>",
-        "route": "/noscript"
+        "route": "/Tag_noscript"
     },
     {
         "tag": "<body>",
-        "route": "/body"
+        "route": "/Tag_body"
     },
     {
         "tag": "<article>",
-        "route": "/article"
+        "route": "/Tag_article"
     },
     {
         "tag": "<header>",
-        "route": "/header"
+        "route": "/Tag_header"
     },
     {
         "tag": "<footer>",
-        "route": "/footer"
+        "route": "/Tag_footer"
     },
     {
         "tag": "<nav>",
-        "route": "/nav"
+        "route": "/Tag_nav"
     },
     {
         "tag": "<section>",
-        "route": "/section"
+        "route": "/Tag_section"
     },
     {
         "tag": "<aside>",
-        "route": "/aside"
+        "route": "/Tag_aside"
     },
     {
         "tag": "<main>",
-        "route": "/main"
+        "route": "/Tag_main"
     },
     {
         "tag": "<address>",
-        "route": "/address"
+        "route": "/Tag_address"
     },
     {
         "tag": "<h1>",
-        "route": "/h1"
+        "route": "/Tag_h1"
     },
     {
         "tag": "<p>",
-        "route": "/p"
+        "route": "/Tag_p"
     },
     {
         "tag": "<hr>",
-        "route": "/hr"
+        "route": "/Tag_hr"
     },
     {
         "tag": "<pre>",
-        "route": "/pre"
+        "route": "/Tag_pre"
     },
     {
         "tag": "<blockquote>",
-        "route": "/blockquote"
+        "route": "/Tag_blockquote"
     },
     {
         "tag": "<ol>",
-        "route": "/ol"
+        "route": "/Tag_ol"
     },
     {
         "tag": "<ul>",
-        "route": "/ul"
+        "route": "/Tag_ul"
     },
     {
         "tag": "<li>",
-        "route": "/li"
+        "route": "/Tag_li"
     },
     {
         "tag": "<dl>",
-        "route": "/dl"
+        "route": "/Tag_dl"
     },
     {
         "tag": "<dt>",
-        "route": "/dt"
+        "route": "/Tag_dt"
     },
     {
         "tag": "<dd>",
-        "route": "/dd"
+        "route": "/Tag_dd"
     },
     {
         "tag": "<figure>",
-        "route": "/figure"
+        "route": "/Tag_figure"
     },
     {
         "tag": "<figcaption>",
-        "route": "/figcaption"
+        "route": "/Tag_figcaption"
     },
     {
         "tag": "<div>",
-        "route": "/div"
+        "route": "/Tag_div"
     },
     {
         "tag": "<a>",
-        "route": "/a"
+        "route": "/Tag_a"
     },
     {
         "tag": "<em>",
-        "route": "/em"
+        "route": "/Tag_em"
     },
     {
         "tag": "<strong>",
-        "route": "/strong"
+        "route": "/Tag_strong"
     },
     {
         "tag": "<small>",
-        "route": "/small"
+        "route": "/Tag_small"
     },
     {
         "tag": "<s>",
-        "route": "/s"
+        "route": "/Tag_s"
     },
     {
         "tag": "<cite>",
-        "route": "/cite"
+        "route": "/Tag_cite"
     },
     {
         "tag": "<q>",
-        "route": "/q"
+        "route": "/Tag_q"
     },
     {
         "tag": "<dfn>",
-        "route": "/dfn"
+        "route": "/Tag_dfn"
     },
     {
         "tag": "<abbr>",
-        "route": "/abbr"
+        "route": "/Tag_abbr"
     },
     {
         "tag": "<data>",
-        "route": "/data"
+        "route": "/Tag_data"
     },
     {
         "tag": "<time>",
-        "route": "/time"
+        "route": "/Tag_time"
     },
     {
         "tag": "<code>",
-        "route": "/code"
+        "route": "/Tag_code"
     },
     {
         "tag": "<var>",
-        "route": "/var"
+        "route": "/Tag_var"
     },
     {
         "tag": "<samp>",
-        "route": "/samp"
+        "route": "/Tag_samp"
     },
     {
         "tag": "<kbd>",
-        "route": "/kbd"
+        "route": "/Tag_kbd"
     },
     {
         "tag": "<sub>",
-        "route": "/sub"
+        "route": "/Tag_sub"
     },
     {
         "tag": "<sup>",
-        "route": "/sup"
+        "route": "/Tag_sup"
     },
     {
         "tag": "<i>",
-        "route": "/i"
+        "route": "/Tag_i"
     },
     {
         "tag": "<b>",
-        "route": "/b"
+        "route": "/Tag_b"
     },
     {
         "tag": "<u>",
-        "route": "/u"
+        "route": "/Tag_u"
     },
     {
         "tag": "<mark>",
-        "route": "/mark"
+        "route": "/Tag_mark"
     },
     {
         "tag": "<ruby>",
-        "route": "/ruby"
+        "route": "/Tag_ruby"
     },
     {
         "tag": "<rt>",
-        "route": "/rt"
+        "route": "/Tag_rt"
     },
     {
         "tag": "<rp>",
-        "route": "/rp"
+        "route": "/Tag_rp"
     },
     {
         "tag": "<bdi>",
-        "route": "/bdi"
+        "route": "/Tag_bdi"
     },
     {
         "tag": "<bdo>",
-        "route": "/bdo"
+        "route": "/Tag_bdo"
     },
     {
         "tag": "<span>",
-        "route": "/span"
+        "route": "/Tag_span"
     },
     {
         "tag": "<br>",
-        "route": "/br"
+        "route": "/Tag_br"
     },
     {
         "tag": "<wbr>",
-        "route": "/wbr"
+        "route": "/Tag_wbr"
     },
     {
         "tag": "<ins>",
-        "route": "/ins"
+        "route": "/Tag_ins"
     },
     {
         "tag": "<del>",
-        "route": "/del"
+        "route": "/Tag_del"
     },
     {
         "tag": "<img>",
-        "route": "/img"
+        "route": "/Tag_img"
     },
     {
         "tag": "<iframe>",
-        "route": "/iframe"
+        "route": "/Tag_iframe"
     },
     {
         "tag": "<embed>",
-        "route": "/embed"
+        "route": "/Tag_embed"
     },
     {
         "tag": "<object>",
-        "route": "/object"
+        "route": "/Tag_object"
     },
     {
         "tag": "<param>",
-        "route": "/param"
+        "route": "/Tag_param"
     },
     {
         "tag": "<video>",
-        "route": "/video"
+        "route": "/Tag_video"
     },
     {
         "tag": "<audio>",
-        "route": "/audio"
+        "route": "/Tag_audio"
     },
     {
         "tag": "<source>",
-        "route": "/source"
+        "route": "/Tag_source"
     },
     {
         "tag": "<track>",
-        "route": "/track"
+        "route": "/Tag_track"
     },
     {
         "tag": "<map>",
-        "route": "/map"
+        "route": "/Tag_map"
     },
     {
         "tag": "<area>",
-        "route": "/area"
+        "route": "/Tag_area"
     },
     {
         "tag": "<canvas>",
-        "route": "/canvas"
+        "route": "/Tag_canvas"
     },
     {
         "tag": "<svg>",
-        "route": "/svg"
+        "route": "/Tag_svg"
     },
     {
         "tag": "<math>",
-        "route": "/math"
+        "route": "/Tag_math"
     },
     {
         "tag": "<table>",
-        "route": "/table"
+        "route": "/Tag_table"
     },
     {
         "tag": "<caption>",
-        "route": "/caption"
+        "route": "/Tag_caption"
     },
     {
         "tag": "<colgroup>",
-        "route": "/colgroup"
+        "route": "/Tag_colgroup"
     },
     {
         "tag": "<col>",
-        "route": "/col"
+        "route": "/Tag_col"
     },
     {
         "tag": "<tbody>",
-        "route": "/tbody"
+        "route": "/Tag_tbody"
     },
     {
         "tag": "<thead>",
-        "route": "/thead"
+        "route": "/Tag_thead"
     },
     {
         "tag": "<tfoot>",
-        "route": "/tfoot"
+        "route": "/Tag_tfoot"
     },
     {
         "tag": "<tr>",
-        "route": "/tr"
+        "route": "/Tag_tr"
     },
     {
         "tag": "<td>",
-        "route": "/td"
+        "route": "/Tag_td"
     },
     {
         "tag": "<th>",
-        "route": "/th"
+        "route": "/Tag_th"
     },
     {
         "tag": "<form>",
-        "route": "/form"
+        "route": "/Tag_form"
     },
     {
         "tag": "<label>",
-        "route": "/label"
+        "route": "/Tag_label"
     },
     {
         "tag": "<input>",
-        "route": "/input"
+        "route": "/Tag_input"
     },
     {
         "tag": "<button>",
-        "route": "/button"
+        "route": "/Tag_button"
     },
     {
         "tag": "<select>",
-        "route": "/select"
+        "route": "/Tag_select"
     },
     {
         "tag": "<datalist>",
-        "route": "/datalist"
+        "route": "/Tag_datalist"
     },
     {
         "tag": "<optgroup>",
-        "route": "/optgroup"
+        "route": "/Tag_optgroup"
     },
     {
         "tag": "<option>",
-        "route": "/option"
+        "route": "/Tag_option"
     },
     {
         "tag": "<textarea>",
-        "route": "/textarea"
+        "route": "/Tag_textarea"
     },
     {
         "tag": "<output>",
-        "route": "/output"
+        "route": "/Tag_output"
     },
     {
         "tag": "<progress>",
-        "route": "/progress"
+        "route": "/Tag_progress"
     },
     {
         "tag": "<meter>",
-        "route": "/meter"
+        "route": "/Tag_meter"
     },
     {
         "tag": "<fieldset>",
-        "route": "/fieldset"
+        "route": "/Tag_fieldset"
     },
     {
         "tag": "<legend>",
-        "route": "/legend"
+        "route": "/Tag_legend"
     },
     {
         "tag": "<details>",
-        "route": "/details"
+        "route": "/Tag_details"
     },
     {
         "tag": "<summary>",
-        "route": "/summary"
+        "route": "/Tag_summary"
     },
     {
         "tag": "<dialog>",
-        "route": "/dialog"
+        "route": "/Tag_dialog"
     },
     {
         "tag": "<menu>",
-        "route": "/menu"
+        "route": "/Tag_menu"
     },
     {
         "tag": "<menuitem>",
-        "route": "/menuitem"
+        "route": "/Tag_menuitem"
     },
     {
         "tag": "<script>",
-        "route": "/script"
+        "route": "/Tag_script"
     },
     {
         "tag": "<noscript>",
-        "route": "/noscript"
+        "route": "/Tag_noscript"
     },
     {
         "tag": "<template>",
-        "route": "/template"
+        "route": "/Tag_template"
     },
     {
         "tag": "<slot>",
-        "route": "/slot"
+        "route": "/Tag_slot"
     },
     {
         "tag": "<caption>",
-        "route": "/caption"
+        "route": "/Tag_caption"
     }
     
 ]
