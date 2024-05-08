@@ -44,6 +44,7 @@ const Tag_ol = () => {
                                 </pre>
                             </div>
                         </div>
+                        
                         <p>Neste exemplo, a tag <code>{'<ol>'}</code> é usada para criar uma lista ordenada com três itens.</p>
 
                         <h3>Elementos de uma Lista Ordenada:</h3>
