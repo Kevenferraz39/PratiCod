@@ -1,6 +1,5 @@
-import Tag_dt from "./components/pages/Tags/html/Tag_dt"
-import Tag_dd from "./components/pages/Tags/html/Tag_dd"
-import Tag_figure from "./components/pages/Tags/html/Tag_figure"
+
+
 import Tag_figcaption from "./components/pages/Tags/html/Tag_figcaption"
 import Tag_div from "./components/pages/Tags/html/Tag_div"
 import Tag_a from "./components/pages/Tags/html/Tag_a"
@@ -79,11 +78,11 @@ import Tag_template from "./components/pages/Tags/html/Tag_template"
 import Tag_slot from "./components/pages/Tags/html/Tag_slot"
 
 
-<Route path="/Tag_dt" element={<Tag_dt />} />
 
-<Route path="/Tag_dd" element={<Tag_dd />} />
 
-<Route path="/Tag_figure" element={<Tag_figure />} />
+
+
+
 
 <Route path="/Tag_figcaption" element={<Tag_figcaption />} />
 

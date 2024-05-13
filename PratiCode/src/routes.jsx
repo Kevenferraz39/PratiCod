@@ -44,6 +44,9 @@ import Tag_ol from "./components/pages/Tags/html/Tag_ol"
 import Tag_ul from "./components/pages/Tags/html/Tag_ul"
 import Tag_li from "./components/pages/Tags/html/Tag_li"
 import Tag_dl from "./components/pages/Tags/html/Tag_dl"
+import Tag_dt from "./components/pages/Tags/html/Tag_dt"
+import Tag_dd from "./components/pages/Tags/html/Tag_dd"
+import Tag_figure from "./components/pages/Tags/html/Tag_figure"
 const APPRoutes = () => {
     const random404 = Math.random() < 0.5 ? <Error404 /> : <Error404Alternate />
 
@@ -95,6 +98,9 @@ const APPRoutes = () => {
                 <Route path="/Tag_ul" element={<Tag_ul />} />
                 <Route path="/Tag_li" element={<Tag_li />} />
                 <Route path="/Tag_dl" element={<Tag_dl />} />
+                <Route path="/Tag_dt" element={<Tag_dt />} />
+                <Route path="/Tag_dd" element={<Tag_dd />} />
+                <Route path="/Tag_figure" element={<Tag_figure />} />
             </Routes>
         </BrowserRouter>
     )
