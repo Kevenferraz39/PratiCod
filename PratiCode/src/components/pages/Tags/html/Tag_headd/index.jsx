@@ -15,7 +15,7 @@ const Tag_headd = () => {
             <div className={Styles.containerr}>
                 <div className={Styles.sideNav}>
                     {htmlTags.map((item, index) => (
-                        <Link key={index} to={item.route}>
+                       <Link key={index} to={item.route || '*'}>
                             <span>{item.tag}</span>
                         </Link>
                     ))}
