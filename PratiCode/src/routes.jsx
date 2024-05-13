@@ -42,7 +42,8 @@ import Tag_pre from "./components/pages/Tags/html/Tag_pre"
 import Tag_blockquote from "./components/pages/Tags/html/Tag_blockquote"
 import Tag_ol from "./components/pages/Tags/html/Tag_ol"
 import Tag_ul from "./components/pages/Tags/html/Tag_ul"
-
+import Tag_li from "./components/pages/Tags/html/Tag_li"
+import Tag_dl from "./components/pages/Tags/html/Tag_dl"
 const APPRoutes = () => {
     const random404 = Math.random() < 0.5 ? <Error404 /> : <Error404Alternate />
 
@@ -92,6 +93,8 @@ const APPRoutes = () => {
                 <Route path="/Tag_blockquote" element={<Tag_blockquote />} />
                 <Route path="/Tag_ol" element={<Tag_ol />} />
                 <Route path="/Tag_ul" element={<Tag_ul />} />
+                <Route path="/Tag_li" element={<Tag_li />} />
+                <Route path="/Tag_dl" element={<Tag_dl />} />
             </Routes>
         </BrowserRouter>
     )
