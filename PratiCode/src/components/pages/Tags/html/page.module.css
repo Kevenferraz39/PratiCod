@@ -36,7 +36,7 @@
     display: block;
     font-weight: 500;
   }
-  
+
   .sideNav span:hover {
     color:var(--color-theme-hover);
     background-color: var(--section-color-hover);
