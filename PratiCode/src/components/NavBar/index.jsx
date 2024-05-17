@@ -23,21 +23,15 @@ const NavBar = () => {
               <img src={Logo} alt="Logo" className={styles.LogoFoto} /> 
             </Link>
             <ul className={`${styles.NavLinks} ${menuOpen ? styles.open : ''}`}>
-              <li>
-                <Link to="/Home" className={`${styles.NavLink} ${location.pathname === '/Home' ? styles.active : ''}`}><span>Home</span></Link> 
-              </li>
-              <li>
-                <Link to="/Tags" className={`${styles.NavLink} ${location.pathname === '/Tags' ? styles.active : ''}`}><span>Tags</span></Link> 
-              </li>
-              <li>
-                <Link to="/Exercicis" className={`${styles.NavLink} ${location.pathname === '/Exercicis' ? styles.active : ''}`}><span>Exercicios</span></Link> 
-              </li>
-              <li>
-                <Link to="/Sobre" className={`${styles.NavLink} ${location.pathname === '/Sobre' ? styles.active : ''}`}><span>Sobre</span></Link> 
-              </li>
-              <li>
-                <Link to="/" className={styles.NavLink}><span>Login</span></Link> 
-              </li>
+              <li><Link to="/Home" className={`${styles.NavLink} ${location.pathname === '/Home' ? styles.active : ''}`}><span>Home</span></Link></li>
+
+              <li><Link to="/Tags" className={`${styles.NavLink} ${location.pathname === '/Tags' ? styles.active : ''}`}><span>Tags</span></Link></li>
+
+              <li><Link to="/Exercicis" className={`${styles.NavLink} ${location.pathname === '/Exercicis' ? styles.active : ''}`}><span>Exercicios</span></Link></li>
+
+              <li><Link to="/Sobre" className={`${styles.NavLink} ${location.pathname === '/Sobre' ? styles.active : ''}`}><span>Sobre</span></Link></li>
+
+              <li><Link to="/" className={styles.NavLink}><span>Login</span></Link></li>
             </ul>
             <div className={styles["nav-icons-container"]}> 
               <img src={icon_menu} alt="menu" className={styles["menu-button"]} onClick={toggleMenu} /> 

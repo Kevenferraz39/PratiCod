@@ -45,7 +45,7 @@ import Tag_slot from "./components/pages/Tags/html/Tag_slot"
 
 
 
-<Route path="/Tag_img" element={<Tag_img />} />
+                <Route path="/Tag_img" element={<Tag_img />} />
                 <Route path="/Tag_iframe" element={<Tag_iframe />} />
                 <Route path="/Tag_embed" element={<Tag_embed />} />
                 <Route path="/Tag_object" element={<Tag_object />} />
