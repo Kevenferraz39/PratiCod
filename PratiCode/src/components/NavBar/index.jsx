@@ -25,7 +25,7 @@ const NavBar = () => {
             <ul className={`${styles.NavLinks} ${menuOpen ? styles.open : ''}`}>
               <li><Link to="/Home" className={`${styles.NavLink} ${location.pathname === '/Home' ? styles.active : ''}`}><span>Home</span></Link></li>
 
-              <li><Link to="/Tags" className={`${styles.NavLink} ${location.pathname === '/Tags' ? styles.active : ''}`}><span>Tags</span></Link></li>
+              <li><Link to="/Tags" className={`${styles.NavLink} ${location.pathname === '/Tags' ? styles.active : ''}`}><span>Conteudo</span></Link></li>
 
               <li><Link to="/Exercicios" className={`${styles.NavLink} ${location.pathname === '/Exercicis' ? styles.active : ''}`}><span>Exercicios</span></Link></li>
 

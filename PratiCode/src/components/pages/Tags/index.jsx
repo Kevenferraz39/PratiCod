@@ -1,5 +1,6 @@
+import React, { useState, useEffect } from 'react'
 import { Helmet } from "react-helmet"
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import Styles from './Tags.module.css'
 import NavBar from "../../NavBar"
 import Footer from "../../Footer"
@@ -13,13 +14,34 @@ import php_Icon from '../../../assets/img/icon/php.svg'
 import ruby_Icon from '../../../assets/img/icon/ruby.svg'
 import css_Icon from '../../../assets/img/icon/css.svg'
 import sql_icon from '../../../assets/img/icon/database.svg'
+
 const Tags = () => {
-    return(
+    const [showModal, setShowModal] = useState(true)
+
+    useEffect(() => {
+        // Mostrar o modal quando a página carrega
+        setShowModal(true)
+    }, [])
+
+    const handleCloseModal = () => {
+        setShowModal(false)
+    }
+
+    return (
         <>
             <Helmet>
                 <title>Tags</title>
             </Helmet>
             <NavBar />
+            {showModal && (
+                <div className={Styles.modal}>
+                    <div className={Styles.modalContent}>
+                        <h2>Bem-vindo a pagina de conteudo !</h2>
+                        <p>Estou super empolgado para compartilhar uma novidade com vocês. A partir desta semana, vou começar a postar conteúdo sobre desenvolvimento de software aqui no LinkedIn! 🚀</p>
+                        <button onClick={handleCloseModal} className={Styles.modalButton}>Fechar</button>
+                    </div>
+                </div>
+            )}
             <div className={Styles.main}>
                 <div className={Styles.containerLinks}>
                     <div className={Styles.pageLink}>
