@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet"
 import NavBar from "../../NavBar"
-
+import Styles from "./Sobre.module.css"
+import Footer from "../../Footer"
 const Sobre = () => {
     return(
         <>
@@ -8,6 +9,10 @@ const Sobre = () => {
             <title>Sobre</title>
         </Helmet>
             <NavBar/>
+            <div className={Styles.main}>
+
+            </div>
+            <Footer/>
         </>
     )
 }
