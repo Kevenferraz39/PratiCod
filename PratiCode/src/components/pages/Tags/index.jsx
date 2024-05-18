@@ -190,6 +190,30 @@ const Tags = () => {
                             <Link to="/Pageruby" className={Styles.button}><span>Ver mais</span></Link>
                         </div>
                     </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={ruby_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Ruby</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link to="/Pageruby" className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
+
+                    <div className={Styles.pageLink}>
+                        <div className={Styles.containerImg}>
+                            <img src={ruby_Icon} alt="icone do html" />
+                        </div>
+                        <div className={Styles.containerTitle}>
+                            <h3>Ruby</h3>
+                        </div>
+                        <div className={Styles.containerBtn}>
+                            <Link to="/Pageruby" className={Styles.button}><span>Ver mais</span></Link>
+                        </div>
+                    </div>
                 </div>
             </div>
             <Footer />

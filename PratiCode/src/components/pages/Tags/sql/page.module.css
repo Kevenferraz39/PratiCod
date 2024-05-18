@@ -1,13 +1,345 @@
 :root {
+    --code:rgb(107, 196, 255);
     --background: #282c34;
     --text-common: #D3D4D7;
+    --strong:rgb(172, 0, 202);
+    --text-common-hover: #c8c8c9;
     --color-theme: #9901c3;
     --color-theme-hover: #740685;
     --section-color: #16181D;
+    --section-color-hover: #1c1f25;
+    --color-theme-titulo:#c8c8c9;
 }
-
-.main {
+.containerr{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: var(--background);
 }
+
+.sideNav{
+    height: 100%;
+    width: 13%;
+    float:left;
+    z-index: 1;
+    margin-top: 5rem;
+    left: 0;
+    background-color: var(--section-color);
+    overflow-x: scroll;
+    padding-top: 20px;
+}
+.sideNav span {
+    padding: 6px 8px 6px 15px;
+    text-decoration: none;
+    font-size: 19px;
+    text-align: left;
+    color: var(--text-common);
+    display: block;
+    font-weight: 500;
+  }
+
+  .sideNav span:hover {
+    color:var(--color-theme-hover);
+    background-color: var(--section-color-hover);
+  }
+  .main {
+    width: 85%;
+    float:right;
+    height: 100vh;
+    background-color: var(--background);
+    margin-top:5rem;
+}
+.container_text{
+    padding: 2rem;
+    width: 90%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto; 
+    text-align: justify;
+}
+.container_text h2,h3,h3{
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: var(--color-theme-titulo);
+}
+.container_text ul{
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    
+}
+.container_text ul,li{
+    text-align: left;
+}
+.container_text p,li{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.container_text strong{
+    color: var(--strong);
+}
+.container_text code{
+    color: var(--code);
+}
+
+.codigoPrint {
+    width: 60%;
+    max-height: auto; 
+    background-color: var(--section-color);
+    border-radius: 1rem;
+}
+
+.containerBol {
+    width: 100%;
+    height: 1rem;
+    padding: 5px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.boll1, .boll2, .boll3 {
+    width: 2%;
+    height: 80%;
+    border-radius: 90%;
+}
+
+.boll1 {
+    background-color: rgb(62, 243, 7);
+    margin-left: 0.5rem;
+}
+
+.boll2 {
+    background-color: yellow;
+}
+
+.boll3 {
+    background-color: red;
+}
+
+.codigo {
+    width: 90%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+   
+}
+
+.codigo pre {
+    word-wrap: break-word; 
+    white-space: pre-wrap; 
+}
+/* Estilo do scroll menu */
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    background-color: var(--section-color);
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+}
+
+.scrollmenu a:hover {
+    background-color: var(--background);
+    font-weight: bold;
+}
+
+.main::-webkit-scrollbar {
+    width: 3px;
+    padding: 0;
+    height: 2px;
+}
+
+.main::-webkit-scrollbar-track {
+    background: var(--section-color);
+}
+
+.main::-webkit-scrollbar-thumb {
+    background: var(--section-color);
+}
+
+.main::-webkit-scrollbar-thumb:hover {
+    background: var(--color-teme);
+}
+
+/* Estilo do scroll menu */
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    background-color: var(--section-color);
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+}
+
+.sideNav::-webkit-scrollbar {
+    width: 3px;
+    padding: 0;
+    height: 2px;
+}
+
+.sideNav::-webkit-scrollbar-track {
+    background: var(--section-color);
+}
+
+.sideNav::-webkit-scrollbar-thumb {
+    background: var(--section-color);
+}
+
+.sideNav::-webkit-scrollbar-thumb:hover {
+    background: var(--color-teme);
+}
+
+/* CSS padrão */
+@media (max-width: 800px) {
+    .containerr {
+        width: 100%;
+        height: 100vh;
+        background-color: var(--background);
+    }
+    
+    .sideNav {
+        height: auto;
+        width: 100%; /* Alterado para 100% */
+        position: fixed; /* Alterado para fixed */
+        top: 0; /* Alterado para 0 */
+        left: 0;
+        background-color: var(--section-color);
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-top: 2px;
+        z-index: 1;
+    }
+    
+    .sideNav span {
+        padding: 6px 8px 6px 15px;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: left;
+        color: var(--text-common);
+        display: inline-block; /* Alterado para inline-block */
+        font-weight: 400;
+    }
+    
+    .sideNav span:hover {
+        color: var(--color-theme-hover);
+        background-color: var(--section-color-hover);
+    }
+    
+    .main {
+        width: 100%; /* Alterado para 100% */
+        height: auto;
+        background-color: var(--background);
+        margin-top: 5rem;
+    }
+    
+    .container_text {
+        padding: 2rem;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .container_text h2,
+    .container_text h3 {
+        text-align: left;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .container_text h3 {
+        color: var(--text-common-hover);
+    }
+    
+    .container_text p,
+    li {
+        display: block;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .container_text strong {
+        color: var(--strong);
+    }
+    
+    .container_text code {
+        color: var(--code);
+    }
+    
+    .codigoPrint {
+        width: 100%;
+        max-height: auto;
+        background-color: var(--section-color);
+        border-radius: 1rem;
+    }
+    
+    .containerBol {
+        width: 100%;
+        height: 1rem;
+        padding: 5px;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    
+    .boll1,
+    .boll2,
+    .boll3 {
+        width: 2%;
+        height: 80%;
+        border-radius: 90%;
+    }
+    
+    .boll1 {
+        background-color: rgb(62, 243, 7);
+        margin-left: 0.5rem;
+    }
+    
+    .boll2 {
+        background-color: yellow;
+    }
+    
+    .boll3 {
+        background-color: red;
+    }
+    
+    .codigo {
+        width: 90%;
+        height: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    .codigo pre {
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+}
+

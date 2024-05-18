@@ -6,7 +6,7 @@ import Footer from '../../../Footer';
 import htmlTags from'./htmlTags.json'
 const Pagehtml = () => {
 
-    return (
+    return ( 
         <>
             <Helmet>
                 <title>Page || HTML5</title>
