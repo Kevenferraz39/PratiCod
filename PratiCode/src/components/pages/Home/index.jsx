@@ -6,19 +6,27 @@ import Styles from './home.module.css'
 import Notification from '../../Notification';
 
 const Home = () => {
-    const [showNotification, setShowNotification] = useState(false); // Inicialmente, a notificação não será exibida
+    const [showNotification, setShowNotification] = useState(false);
 
     useEffect(() => {
-        // Exibe a notificação quando o componente for montado
-        setShowNotification(true);
+        // Verifica se a notificação já foi exibida anteriormente
+        const hasShownNotification = localStorage.getItem('hasShownNotification');
 
-        // Define um timeout para ocultar a notificação após 5 segundos
-        const timeout = setTimeout(() => {
-            setShowNotification(false);
-        }, 5000);
+        if (!hasShownNotification) {
+            // Exibe a notificação se ela ainda não foi exibida
+            setShowNotification(true);
 
-        // Limpa o timeout ao desmontar o componente
-        return () => clearTimeout(timeout);
+            // Define um timeout para ocultar a notificação após 5 segundos
+            const timeout = setTimeout(() => {
+                setShowNotification(false);
+            }, 5000);
+
+            // Armazena no localStorage que a notificação foi exibida
+            localStorage.setItem('hasShownNotification', 'true');
+
+            // Limpa o timeout ao desmontar o componente
+            return () => clearTimeout(timeout);
+        }
     }, []); // Executa o efeito apenas uma vez quando o componente é montado
 
     return(

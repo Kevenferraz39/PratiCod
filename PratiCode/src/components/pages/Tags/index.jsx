@@ -16,11 +16,15 @@ import css_Icon from '../../../assets/img/icon/css.svg'
 import sql_icon from '../../../assets/img/icon/database.svg'
 
 const Tags = () => {
-    const [showModal, setShowModal] = useState(true)
+    const [showModal, setShowModal] = useState(false)
 
     useEffect(() => {
-        // Mostrar o modal quando a página carrega
-        setShowModal(true)
+        // Verificar se o modal já foi mostrado anteriormente
+        const hasShownModal = localStorage.getItem('hasShownModal')
+        if (!hasShownModal) {
+            setShowModal(true)
+            localStorage.setItem('hasShownModal', 'true')
+        }
     }, [])
 
     const handleCloseModal = () => {
@@ -30,14 +34,37 @@ const Tags = () => {
     return (
         <>
             <Helmet>
-                <title>Tags</title>
+                <title>Conteudo</title>
             </Helmet>
             <NavBar />
             {showModal && (
                 <div className={Styles.modal}>
                     <div className={Styles.modalContent}>
-                        <h2>Bem-vindo a pagina de conteudo !</h2>
-                        <p>Estou super empolgado para compartilhar uma novidade com vocês. A partir desta semana, vou começar a postar conteúdo sobre desenvolvimento de software aqui no LinkedIn! 🚀</p>
+                        <h2> Bem-vindo à Nossa Página de Conteúdos!</h2>
+                        <p>
+                            É com imensa alegria que te recebemos aqui! 🌟
+                            <br/><br/>
+                            Neste espaço, você terá acesso a uma vasta gama de conteúdos que vão te ajudar a dominar diversas tecnologias essenciais para o desenvolvimento web. Nossa missão é tornar sua jornada de aprendizado a mais prazerosa e produtiva possível. Aqui você encontrará:<br/><br/>
+                        </p>
+                        <ul>
+                            <li><span>HTML5:</span> A base de toda página web. Vamos explorar suas tags, atributos e melhores práticas para criar estruturas robustas.</li>
+                            <li><span>CSS3:</span> A magia por trás do estilo. Aprenda a estilizar suas páginas com elegância e eficiência.</li>
+                            <li><span>React:</span> Uma biblioteca poderosa para construir interfaces dinâmicas e reativas. Vamos juntos desvendar seus segredos.</li>
+                            <li><span>JavaScript:</span> O motor que dá vida às suas páginas. Desde conceitos básicos até técnicas avançadas.</li>
+                            <li><span>PHP:</span> A linguagem do lado do servidor que pode transformar suas páginas em aplicações completas.</li>
+                            <li><span>Git:</span> Controle de versão essencial para qualquer desenvolvedor. Mantenha seu código organizado e colaborativo.</li>
+                            <li><span>SQL:</span> Domine a arte de manipular bancos de dados e faça consultas poderosas.</li>
+                            <li><span>Ruby:</span> Uma linguagem elegante e produtiva, perfeita para quem valoriza simplicidade e eficiência.</li>
+                            <li><span>Node.js:</span> Leve seu JavaScript para o lado do servidor e construa aplicações escaláveis.</li>
+                            <li><span>JSON:</span> Formato leve e eficiente para troca de dados. Fundamental para integrações e APIs.</li>
+                        </ul><br/>
+                        <p>
+                            Sinta-se à vontade para explorar cada um desses tópicos e aproveitar ao máximo os materiais que preparamos com tanto carinho. Nossa comunidade está aqui para te apoiar em cada passo da sua jornada.
+                            <br/>
+                            Prepare-se para mergulhar em um mundo de conhecimento e inovação. Vamos juntos transformar ideias em realidade!
+                            <br/><br/>
+                            Bem-vindo e aproveite a sua estadia! 🚀✨
+                        </p>
                         <button onClick={handleCloseModal} className={Styles.modalButton}>Fechar</button>
                     </div>
                 </div>
