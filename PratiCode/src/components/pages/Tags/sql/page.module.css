@@ -30,7 +30,7 @@
 .sideNav span {
     padding: 6px 8px 6px 15px;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 12px;
     text-align: left;
     color: var(--text-common);
     display: block;
@@ -41,10 +41,51 @@
     color:var(--color-theme-hover);
     background-color: var(--section-color-hover);
   }
+  
+  /*formatacao do menu */
+
+  .sideNav details {
+    margin: 0;
+    padding: 0;
+    color: var(--text-common);
+    cursor: pointer;
+}
+
+.sideNav summary {
+    padding: 6px 8px 6px 15px;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 500;
+    color: var(--text-common);
+    background-color: var(--section-color);
+}
+
+.sideNav summary:hover {
+    color: var(--color-theme-hover);
+    background-color: var(--section-color-hover);
+}
+
+.sideNav details[open] summary {
+    background-color: var(--section-color-hover);
+}
+
+.sideNav details a {
+    display: block;
+    padding: 6px 8px 6px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--text-common);
+}
+
+.sideNav details a:hover {
+    color: var(--color-theme-hover);
+    background-color: var(--section-color-hover);
+}
+/*dim da formatacao do menu */
   .main {
     width: 85%;
     float:right;
-    height: 100vh;
+    height: 90vh;
     background-color: var(--background);
     margin-top:5rem;
 }

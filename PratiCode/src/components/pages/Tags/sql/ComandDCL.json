@@ -1,0 +1,14 @@
+[
+    {
+        "tag": "O que é DCL",
+        "route": "/oqueeDCL" 
+    },
+    {
+        "tag": "GRANT",
+        "route": "/Cmd_grant" 
+    },
+    {
+        "tag": "REVOKE",
+        "route": "/cmd_revoke"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "tag": "O que é TCL",
+        "route": "/oqueeTCL" 
+    },
+    {
+        "tag": "COMMIT",
+        "route": "/Cmd_commit" 
+    },
+    {
+        "tag": "ROLLBACK",
+        "route": "/cmd_rollback"
+    },
+    {
+        "tag": "SAVEPOINT",
+        "route": "/Cmd_savepoint" 
+    },
+    {
+        "tag": "SET TRANSITION",
+        "route": "/cmd_setTransition"
+    }
+]

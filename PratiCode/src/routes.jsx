@@ -80,7 +80,7 @@ import Tag_br from "./components/pages/Tags/html/Tag_br"
 import Tag_wbr from "./components/pages/Tags/html/Tag_wbr"
 import Tag_ins from "./components/pages/Tags/html/Tag_ins"
 import Tag_del from "./components/pages/Tags/html/Tag_del"
-
+import SelectComand from "./components/pages/Tags/sql/DQL/Select"
 
 const APPRoutes = () => {
     const random404 = Math.random() < 0.5 ? <Error404 /> : <Error404Alternate />
@@ -169,6 +169,7 @@ const APPRoutes = () => {
                 <Route path="/Tag_wbr" element={<Tag_wbr />} />
                 <Route path="/Tag_ins" element={<Tag_ins />} />
                 <Route path="/Tag_del" element={<Tag_del />} />
+                <Route path="/SelectComand" element={<SelectComand />} />
             </Routes>
         </BrowserRouter>
     )
