@@ -80,8 +80,30 @@ import Tag_br from "./components/pages/Tags/html/Tag_br"
 import Tag_wbr from "./components/pages/Tags/html/Tag_wbr"
 import Tag_ins from "./components/pages/Tags/html/Tag_ins"
 import Tag_del from "./components/pages/Tags/html/Tag_del"
-import SelectComand from "./components/pages/Tags/sql/DQL/Select"
-
+import Cmnd_select from "./components/pages/Tags/sql/DQL/Select"
+import Cmnd_where from "./components/pages/Tags/sql/DQL/Where"
+import Cmnd_groupby from "./components/pages/Tags/sql/DQL/GropBy"
+import Cmnd_having from "./components/pages/Tags/sql/DQL/Having"
+import Cmnd_orderby from "./components/pages/Tags/sql/DQL/OrderBy"
+import Cmnd_join from "./components/pages/Tags/sql/DQL/join"
+import Cmnd_innerjoin from "./components/pages/Tags/sql/DQL/InnerJoin"
+import Cmnd_leftjoin from "./components/pages/Tags/sql/DQL/LeftJoin"
+import Cmnd_rightjoin from "./components/pages/Tags/sql/DQL/RightJoin"
+import Cmnd_fulljoin from "./components/pages/Tags/sql/DQL/FullJoin"
+import Cmnd_crossjoin from "./components/pages/Tags/sql/DQL/CrossJoin"
+import Cmnd_union from "./components/pages/Tags/sql/DQL/Union"
+import Cmnd_unionall from "./components/pages/Tags/sql/DQL/UnionAll"
+import Cmnd_distinct from "./components/pages/Tags/sql/DQL/Distinct"
+import Cmnd_limit from "./components/pages/Tags/sql/DQL/Limit"
+import Cmnd_offset from "./components/pages/Tags/sql/DQL/Offset"
+import Cmnd_avg from "./components/pages/Tags/sql/DQL/Avg"
+import Cmnd_case from "./components/pages/Tags/sql/DQL/Case"
+import Cmnd_coalesce from "./components/pages/Tags/sql/DQL/Coalesce"
+import Cmnd_count from "./components/pages/Tags/sql/DQL/Count"
+import Cmnd_like from "./components/pages/Tags/sql/DQL/Like"
+import Cmnd_max from "./components/pages/Tags/sql/DQL/Max"
+import Cmnd_min from "./components/pages/Tags/sql/DQL/Min"
+import Cmnd_sum from "./components/pages/Tags/sql/DQL/Sum"
 const APPRoutes = () => {
     const random404 = Math.random() < 0.5 ? <Error404 /> : <Error404Alternate />
 
@@ -169,7 +191,30 @@ const APPRoutes = () => {
                 <Route path="/Tag_wbr" element={<Tag_wbr />} />
                 <Route path="/Tag_ins" element={<Tag_ins />} />
                 <Route path="/Tag_del" element={<Tag_del />} />
-                <Route path="/SelectComand" element={<SelectComand />} />
+                <Route path="/cmd_select" element={<Cmnd_select/>}/>
+                <Route path="/cmd_where" element={<Cmnd_where />} />
+                <Route path="/cmd_groupby" element={<Cmnd_groupby />} />
+                <Route path="/cmd_having" element={<Cmnd_having />} />
+                <Route path="/cmd_orderby" element={<Cmnd_orderby />} />
+                <Route path="/cmd_join" element={<Cmnd_join />} />
+                <Route path="/cmd_innerjoin" element={<Cmnd_innerjoin />} />
+                <Route path="/cmd_leftjoin" element={<Cmnd_leftjoin />} />
+                <Route path="/cmd_rightjoin" element={<Cmnd_rightjoin />} />
+                <Route path="/cmd_fulljoin" element={<Cmnd_fulljoin />} />
+                <Route path="/cmd_crossjoin" element={<Cmnd_crossjoin />} />
+                <Route path="/cmd_union" element={<Cmnd_union />} />
+                <Route path="/cmd_unionall" element={<Cmnd_unionall />} />
+                <Route path="/cmd_distinct" element={<Cmnd_distinct />} />
+                <Route path="/cmd_limit" element={<Cmnd_limit />} />
+                <Route path="/cmd_offset" element={<Cmnd_offset />} />
+                <Route path="/cmd_avg" element={<Cmnd_avg />} />
+                <Route path="/cmd_case" element={<Cmnd_case />} />
+                <Route path="/cmd_coalesce" element={<Cmnd_coalesce />} />
+                <Route path="/cmd_count" element={<Cmnd_count />} />
+                <Route path="/cmd_like" element={<Cmnd_like />} />
+                <Route path="/cmd_max" element={<Cmnd_max />} />
+                <Route path="/cmd_min" element={<Cmnd_min />} />
+                <Route path="/cmd_sum" element={<Cmnd_sum />} />
             </Routes>
         </BrowserRouter>
     )

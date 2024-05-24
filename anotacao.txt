@@ -90,3 +90,40 @@ import Tag_slot from "./components/pages/Tags/html/Tag_slot"
                 <Route path="/Tag_menuitem" element={<Tag_menuitem />} />
                 <Route path="/Tag_template" element={<Tag_template />} />
                 <Route path="/Tag_slot" element={<Tag_slot />} />
+
+
+
+
+
+
+import Cmnd_groupby from "./components/pages/Tags/sql/DQL/GropBy"
+import Cmnd_having from "./components/pages/Tags/sql/DQL/Having"
+import Cmnd_orderby from "./components/pages/Tags/sql/DQL/OrderBy"
+import Cmnd_join from "./components/pages/Tags/sql/DQL/join"
+import Cmnd_union from "./components/pages/Tags/sql/DQL/Union"
+import Cmnd_avg from "./components/pages/Tags/sql/DQL/Avg"
+import Cmnd_case from "./components/pages/Tags/sql/DQL/Case"
+import Cmnd_coalesce from "./components/pages/Tags/sql/DQL/Coalesce"
+import Cmnd_count from "./components/pages/Tags/sql/DQL/Count"
+import Cmnd_like from "./components/pages/Tags/sql/DQL/Like"
+import Cmnd_max from "./components/pages/Tags/sql/DQL/Max"
+import Cmnd_min from "./components/pages/Tags/sql/DQL/Min"
+import Cmnd_sum from "./components/pages/Tags/sql/DQL/Sum"
+
+
+              
+                <Route path="/cmd_groupby" element={<Cmnd_groupby />} />
+                <Route path="/cmd_having" element={<Cmnd_having />} />
+                <Route path="/cmd_orderby" element={<Cmnd_orderby />} />
+                <Route path="/cmd_join" element={<Cmnd_join />} />
+                <Route path="/cmd_crossjoin" element={<Cmnd_crossjoin />} />
+                <Route path="/cmd_union" element={<Cmnd_union />} />
+                <Route path="/cmd_offset" element={<Cmnd_offset />} />
+                <Route path="/cmd_avg" element={<Cmnd_avg />} />
+                <Route path="/cmd_case" element={<Cmnd_case />} />
+                <Route path="/cmd_coalesce" element={<Cmnd_coalesce />} />
+                <Route path="/cmd_count" element={<Cmnd_count />} />
+                <Route path="/cmd_like" element={<Cmnd_like />} />
+                <Route path="/cmd_max" element={<Cmnd_max />} />
+                <Route path="/cmd_min" element={<Cmnd_min />} />
+                <Route path="/cmd_sum" element={<Cmnd_sum />} />
