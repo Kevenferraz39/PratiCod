@@ -7,6 +7,7 @@ import Login from './components/pages/Login'
 import Cadastro from './components/pages/Cadastro'
 import Error404 from './components/pages/Error404'
 import Error404Alternate from './components/pages/Error404Alternate' // Importe a segunda página 404
+//imports paginas de conteudos
 import Pagehtml from "./components/pages/Tags/html"
 import Pagegit from "./components/pages/Tags/git"
 import Pagejs from "./components/pages/Tags/js"
@@ -17,6 +18,7 @@ import Pagereact from "./components/pages/Tags/react"
 import Pageruby from "./components/pages/Tags/ruby"
 import Pagesql from "./components/pages/Tags/sql"
 import Pagecss from "./components/pages/Tags/css"
+//imports paginas tags html ?
 import Tag_html from "./components/pages/Tags/html/Tag_html"
 import Tag_headd from "./components/pages/Tags/html/Tag_headd"
 import Tag_title from "./components/pages/Tags/html/Tag_title"
@@ -80,6 +82,7 @@ import Tag_br from "./components/pages/Tags/html/Tag_br"
 import Tag_wbr from "./components/pages/Tags/html/Tag_wbr"
 import Tag_ins from "./components/pages/Tags/html/Tag_ins"
 import Tag_del from "./components/pages/Tags/html/Tag_del"
+//imports paginas DQL
 import PageDQL from "./components/pages/Tags/sql/DQL/index"
 import Cmnd_select from "./components/pages/Tags/sql/DQL/Select"
 import Cmnd_where from "./components/pages/Tags/sql/DQL/Where"
@@ -111,6 +114,7 @@ const APPRoutes = () => {
     return (
         <BrowserRouter>
             <Routes>
+                {/*routes from nav*/}
                 <Route path="/Home" element={<Home />} />
                 <Route path="/Tags" element={<Tags />} />
                 <Route path="/Sobre" element={<Sobre />} />
@@ -119,6 +123,7 @@ const APPRoutes = () => {
                 <Route path="/Cadastro" element={<Cadastro />} />
                 <Route path="/" element={<Login />} />
                 <Route path="*" element={random404} />
+                {/*rootes from page conteudo */}
                 <Route path="/Pagehtml" element={<Pagehtml />} />
                 <Route path="/Pagecss" element={<Pagecss />} />
                 <Route path="/Pagegit" element={<Pagegit />} />
@@ -129,6 +134,7 @@ const APPRoutes = () => {
                 <Route path="/Pagesql" element={<Pagesql />} />
                 <Route path="/Pagereact" element={<Pagereact />} />
                 <Route path="/Pageruby" element={<Pageruby />} />
+                 {/*rootes from page tags */}
                 <Route path="/Tag_html" element={<Tag_html />} />
                 <Route path="/Tag_headd" element={<Tag_headd />} />
                 <Route path="/Tag_title" element={<Tag_title />} />
@@ -192,6 +198,7 @@ const APPRoutes = () => {
                 <Route path="/Tag_wbr" element={<Tag_wbr />} />
                 <Route path="/Tag_ins" element={<Tag_ins />} />
                 <Route path="/Tag_del" element={<Tag_del />} />
+                  {/*rootes from page DQL */}
                 <Route path="/PageDQL" element={<PageDQL/>}/>
                 <Route path="/cmd_select" element={<Cmnd_select/>}/>
                 <Route path="/cmd_where" element={<Cmnd_where />} />
