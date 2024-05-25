@@ -80,6 +80,7 @@ import Tag_br from "./components/pages/Tags/html/Tag_br"
 import Tag_wbr from "./components/pages/Tags/html/Tag_wbr"
 import Tag_ins from "./components/pages/Tags/html/Tag_ins"
 import Tag_del from "./components/pages/Tags/html/Tag_del"
+import PageDQL from "./components/pages/Tags/sql/DQL/index"
 import Cmnd_select from "./components/pages/Tags/sql/DQL/Select"
 import Cmnd_where from "./components/pages/Tags/sql/DQL/Where"
 import Cmnd_groupby from "./components/pages/Tags/sql/DQL/GropBy"
@@ -191,6 +192,7 @@ const APPRoutes = () => {
                 <Route path="/Tag_wbr" element={<Tag_wbr />} />
                 <Route path="/Tag_ins" element={<Tag_ins />} />
                 <Route path="/Tag_del" element={<Tag_del />} />
+                <Route path="/PageDQL" element={<PageDQL/>}/>
                 <Route path="/cmd_select" element={<Cmnd_select/>}/>
                 <Route path="/cmd_where" element={<Cmnd_where />} />
                 <Route path="/cmd_groupby" element={<Cmnd_groupby />} />

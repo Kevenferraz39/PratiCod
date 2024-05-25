@@ -1,4 +1,7 @@
-[
+[   {
+        "tag": "O que é DQL",
+        "route": "/PageDQL" 
+    },
     {
         "tag": "SELECT",
         "route": "/cmd_select"
