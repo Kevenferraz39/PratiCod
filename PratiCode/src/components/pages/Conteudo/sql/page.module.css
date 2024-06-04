@@ -36,7 +36,16 @@
     display: block;
     font-weight: 500;
   }
-
+.sideNav .btnvoltar{
+    background-color: var(--color-theme-hover);
+    padding:  4px 4px 3px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.sideNav .btnvoltar:hover{
+    color:var(--color-theme-titulo);
+    background-color: var(--color-theme-hover);
+}
   .sideNav span:hover {
     color:var(--color-theme-hover);
     background-color: var(--section-color-hover);

@@ -57,6 +57,9 @@ const Pagesql = () => {
                             </Link>
                         ))}
                     </details>
+                    <summary className={Styles.btnvoltar}>
+                        <Link to="/conteudo"><span className={Styles.btnvoltar}>&larr; Voltar</span></Link>
+                    </summary>
                 </div>
                 <div className={Styles.main}>
                 <div className={Styles.container_text}>

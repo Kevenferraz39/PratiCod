@@ -19,6 +19,7 @@ const Pagehtml = () => {
                             <span>{item.tag}</span>
                         </Link>
                     ))}
+                    
                 </div>
                 <div className={Styles.main}>
                     <div className={Styles.container_text}>
