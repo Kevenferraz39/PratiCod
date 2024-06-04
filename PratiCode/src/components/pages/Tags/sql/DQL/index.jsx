@@ -21,7 +21,7 @@ const PageDQL = () => {
                         ))}
                 </div>
                 <div className={Styles.main}>
-                    {/* Conteúdo principal aqui */}
+                    {/* Conteúdo principal aqui */} 
                 </div>
             </div>
             <Footer />

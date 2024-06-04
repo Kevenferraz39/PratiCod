@@ -82,6 +82,10 @@ import Tag_br from "./components/pages/Tags/html/Tag_br"
 import Tag_wbr from "./components/pages/Tags/html/Tag_wbr"
 import Tag_ins from "./components/pages/Tags/html/Tag_ins"
 import Tag_del from "./components/pages/Tags/html/Tag_del"
+// imports paginas DCL
+import PageDCL from "./components/pages/Tags/sql/DCL/index"
+import Cmnd_grant from "./components/pages/Tags/sql/DCL/Grant"
+import Cmnd_revoke from "./components/pages/Tags/sql/DCL/Revoke"
 //imports paginas DQL
 import PageDQL from "./components/pages/Tags/sql/DQL/index"
 import Cmnd_select from "./components/pages/Tags/sql/DQL/Select"
@@ -108,6 +112,26 @@ import Cmnd_like from "./components/pages/Tags/sql/DQL/Like"
 import Cmnd_max from "./components/pages/Tags/sql/DQL/Max"
 import Cmnd_min from "./components/pages/Tags/sql/DQL/Min"
 import Cmnd_sum from "./components/pages/Tags/sql/DQL/Sum"
+//imports paginas DDL
+import PageDDL from "./components/pages/Tags/sql/DDL/index"
+import Cmnd_alterTable from "./components/pages/Tags/sql/DDL/Alter_table"
+import Cmnd_createDatabase from "./components/pages/Tags/sql/DDL/Create_database"
+import Cmnd_createIndex from "./components/pages/Tags/sql/DDL/Create_index"
+import Cmnd_createTable from "./components/pages/Tags/sql/DDL/Create_table"
+import Cmnd_dropDatabase from "./components/pages/Tags/sql/DDL/Drop_database"
+import Cmnd_dropTable from "./components/pages/Tags/sql/DDL/Drop_table"
+//imports paginas DML
+import PageDML from "./components/pages/Tags/sql/DML/index"
+import Cmnd_delete from "./components/pages/Tags/sql/DML/Delete"
+import Cmnd_insert from "./components/pages/Tags/sql/DML/Insert"
+import Cmnd_merge from "./components/pages/Tags/sql/DML/Merge"
+import Cmnd_update from "./components/pages/Tags/sql/DML/Update"
+//imports paginas TCL
+import PageTCL from "./components/pages/Tags/sql/TCL/index"
+import Cmnd_commit from "./components/pages/Tags/sql/TCL/Commit"
+import Cmnd_rollback from "./components/pages/Tags/sql/TCL/Rollback"
+import Cmnd_savepoint from "./components/pages/Tags/sql/TCL/Savepoint"
+import Cmnd_setTransition from "./components/pages/Tags/sql/TCL/SetTransaction"
 const APPRoutes = () => {
     const random404 = Math.random() < 0.5 ? <Error404 /> : <Error404Alternate />
 
@@ -224,6 +248,30 @@ const APPRoutes = () => {
                 <Route path="/cmd_max" element={<Cmnd_max />} />
                 <Route path="/cmd_min" element={<Cmnd_min />} />
                 <Route path="/cmd_sum" element={<Cmnd_sum />} />
+                 {/*rootes from page DCL */}
+                <Route path="/pageDCL" element={<PageDCL/>}/>
+                <Route path="/cmd_grant" element={<Cmnd_grant />} />
+                <Route path="/cmd_revoke" element={<Cmnd_revoke />}/>
+                 {/*rootes from page DDL */}
+                 <Route path="/pageDDL" element={<PageDDL/>}/>
+                 <Route path="/cmd_alterTable" element={<Cmnd_alterTable />} />
+                 <Route path="/cmd_createDatabase" element={<Cmnd_createDatabase />}/>
+                 <Route path="/cmd_index" element={<Cmnd_createIndex />}/>
+                 <Route path="/cmd_table" element={<Cmnd_createTable />}/>
+                 <Route path="/cmd_dropDatabase" element={<Cmnd_dropDatabase />}/>
+                 <Route path="/cmd_dropTable" element={<Cmnd_dropTable />}/>
+                 {/*rootes from page DML */}
+                 <Route path="/pageDML" element={<PageDML/>}/>
+                 <Route path="/cmd_delete" element={<Cmnd_delete />} />
+                 <Route path="/cmd_insert" element={<Cmnd_insert />}/>
+                 <Route path="/cmd_merge" element={<Cmnd_merge />}/>
+                 <Route path="/cmd_update" element={<Cmnd_update />}/>
+                 {/*rootes from page TCL */}
+                 <Route path="/pageTCL" element={<PageTCL/>}/>
+                 <Route path="/cmd_commit" element={<Cmnd_commit />} />
+                 <Route path="/cmd_rollback" element={<Cmnd_rollback />}/>
+                 <Route path="/cmd_savepoint" element={<Cmnd_savepoint />}/>
+                 <Route path="/cmd_setTransition" element={<Cmnd_setTransition />}/>
             </Routes>
         </BrowserRouter>
     )

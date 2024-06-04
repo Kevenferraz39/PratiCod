@@ -101,5 +101,9 @@
     {
         "tag": "SUM",
         "route": "/cmd_sum"
+    },
+    {
+        "tag": "Voltar",
+        "route":"/Pagesql"
     }
 ]

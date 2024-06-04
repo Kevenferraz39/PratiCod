@@ -1,11 +1,11 @@
 [
     {
         "tag": "O que é TCL",
-        "route": "/oqueeTCL" 
+        "route": "/pageTCL" 
     },
     {
         "tag": "COMMIT",
-        "route": "/Cmd_commit" 
+        "route": "/cmd_commit" 
     },
     {
         "tag": "ROLLBACK",
@@ -13,10 +13,14 @@
     },
     {
         "tag": "SAVEPOINT",
-        "route": "/Cmd_savepoint" 
+        "route": "/cmd_savepoint" 
     },
     {
         "tag": "SET TRANSITION",
         "route": "/cmd_setTransition"
+    },
+    {
+        "tag": "Voltar",
+        "route":"/Pagesql"
     }
 ]

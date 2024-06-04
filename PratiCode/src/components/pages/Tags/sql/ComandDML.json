@@ -1,7 +1,7 @@
 [   
     {
         "tag": "O que é DML",
-        "route": "/oqueeDML" 
+        "route": "/pageDML" 
     },
     {
         "tag": "DELETE",
@@ -18,5 +18,9 @@
     {
         "tag": "UPDATE",
         "route": "/Cmd_update"
+    },
+    {
+        "tag": "Voltar",
+        "route":"/Pagesql"
     }
 ]
