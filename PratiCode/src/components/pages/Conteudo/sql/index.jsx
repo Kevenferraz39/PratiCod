@@ -62,39 +62,23 @@ const Pagesql = () => {
                     </summary>
                 </div>
                 <div className={Styles.main}>
-                <div className={Styles.container_text}>
+                    <div className={Styles.container_text}>
                         <h2>O que é SQL?</h2>
-                        <p>As tags HTML (Hypertext Markup Language) são elementos fundamentais usados para estruturar e formatar o conteúdo em uma página da web. Cada tag HTML é interpretada pelo navegador e exibida de acordo com suas especificações, permitindo que os desenvolvedores criem páginas da web visualmente atrativas e bem organizadas.</p>
+                        <p>SQL (Structured Query Language) é uma linguagem de programação padrão usada para gerenciar e manipular bancos de dados relacionais. Através de comandos SQL, é possível realizar diversas operações em bancos de dados, como consultas, inserções, atualizações e exclusões de dados.</p>
 
-                        <h2>Estrutura de uma tag HTML</h2>
-                        <p>Uma tag HTML consiste em várias partes:</p>
+                        <h2>Principais Comandos SQL</h2>
+                        <p>Os comandos SQL são categorizados em diferentes grupos, cada um com uma finalidade específica:</p>
                         <ol>
-                            <li><strong>Nome da Tag:</strong> É o primeiro elemento da tag e identifica o tipo de elemento HTML. Por exemplo, <code>{'<h1>'}</code>, <code>{'<p>'}</code>, <code>{'<img>'}</code>.</li>
-                            <li><strong>Atributos:</strong> São informações adicionais que podem ser fornecidas à tag para modificar ou definir seu comportamento. Os atributos são colocados dentro do par de colchetes da tag. Exemplos comuns incluem <code>src</code>, <code>alt</code>, <code>href</code>, <code>class</code>, <code>id</code>, entre outros.</li>
-                            <li><strong>Conteúdo:</strong> Alguns elementos HTML podem conter texto ou outros elementos HTML como seu conteúdo. Por exemplo, o texto dentro de uma tag <code>{'<p>'}</code> é considerado seu conteúdo.</li>
-                            <li><strong>Tag de Fechamento:</strong> Alguns elementos HTML requerem uma tag de fechamento para indicar onde o elemento termina. Por exemplo, <code>{'<p>...</p>'}</code>. No entanto, algumas tags, como <code>{'<img>'}</code>, são autossuficientes e não precisam de uma tag de fechamento separada.</li>
+                            <li><strong>DDL (Data Definition Language):</strong> Comandos que definem a estrutura do banco de dados. Exemplos incluem <code>CREATE</code>, <code>ALTER</code> e <code>DROP</code>.</li>
+                            <li><strong>DML (Data Manipulation Language):</strong> Comandos que manipulam os dados no banco de dados. Exemplos incluem <code>SELECT</code>, <code>INSERT</code>, <code>UPDATE</code> e <code>DELETE</code>.</li>
+                            <li><strong>DCL (Data Control Language):</strong> Comandos que controlam o acesso aos dados. Exemplos incluem <code>GRANT</code> e <code>REVOKE</code>.</li>
+                            <li><strong>TCL (Transaction Control Language):</strong> Comandos que gerenciam transações no banco de dados. Exemplos incluem <code>COMMIT</code>, <code>ROLLBACK</code> e <code>SAVEPOINT</code>.</li>
                         </ol>
 
-                        <h2>Exemplos detalhados de tags HTML</h2>
+                        <h2>Exemplos Detalhados de Comandos SQL</h2>
 
-                        <h3>Tag {'<h1>'} - Cabeçalho de Nível 1</h3>
-                        <p><strong>Propósito:</strong> Usado para definir o cabeçalho principal ou título de uma página.</p>
-
-                        <div className={Styles.codigoPrint}>
-                            <div className={Styles.containerBol}>
-                                <div className={Styles.boll1}></div>
-                                <div className={Styles.boll2}></div>
-                                <div className={Styles.boll3}></div>
-                            </div>
-                            <div className={Styles.codigo}>
-                            <pre>{`<h1>Meu Título Principal</h1>`}</pre>
-                            </div>
-                        </div>
- 
-                        <p><strong>Explicação Detalhada:</strong> O elemento {'<h1>'} é usado para definir um cabeçalho de nível 1, indicando o título principal da página. Geralmente, é o maior e mais importante cabeçalho em uma página da web, e deve ser usado com moderação para manter a hierarquia adequada.</p>
-
-                        <h3>Tag {'<p>'} - Parágrafo</h3>
-                        <p><strong>Propósito:</strong> Usado para agrupar blocos de texto em parágrafos distintos.</p>
+                        <h3>Comando <code>SELECT</code></h3>
+                        <p><strong>Propósito:</strong> Usado para consultar e recuperar dados de um banco de dados.</p>
 
                         <div className={Styles.codigoPrint}>
                             <div className={Styles.containerBol}>
@@ -103,27 +87,63 @@ const Pagesql = () => {
                                 <div className={Styles.boll3}></div>
                             </div>
                             <div className={Styles.codigo}>
-                                <pre>{`<p>Este é um parágrafo de exemplo. Ele contém algum texto para demonstrar como as tags <code>&lt;p&gt;</code> funcionam em HTML.</p>`}</pre>
+                                <pre>{`SELECT * FROM clientes;`}</pre>
                             </div>
                         </div>
-                       
-                        <p><strong>Explicação Detalhada:</strong> O elemento {'<p>'} é usado para definir um parágrafo de texto em uma página da web. Qualquer texto dentro desta tag é considerado um parágrafo individual, e os navegadores geralmente exibem cada parágrafo em uma linha separada.</p>
+    
+                        <p><strong>Explicação Detalhada:</strong> Este comando <code>SELECT</code> recupera todos os registros da tabela "clientes". O asterisco (<code>*</code>) é usado para selecionar todas as colunas da tabela.</p>
+
+                        <h3>Comando <code>INSERT</code></h3>
+                        <p><strong>Propósito:</strong> Usado para inserir novos dados em uma tabela.</p>
+
+                        <div className={Styles.codigoPrint}>
+                            <div className={Styles.containerBol}>
+                                <div className={Styles.boll1}></div>
+                                <div className={Styles.boll2}></div>
+                                <div className={Styles.boll3}></div>
+                            </div>
+                            <div className={Styles.codigo}>
+                                <pre>{`INSERT INTO clientes (nome, idade) VALUES ('João', 30);`}</pre>
+                            </div>
+                        </div>
                         
-                        <h3>Tag {'<img>'} - Imagem</h3>
-                        <p><strong>Propósito:</strong> Usado para inserir imagens em uma página da web.</p>
+                        <p><strong>Explicação Detalhada:</strong> Este comando <code>INSERT</code> adiciona um novo registro na tabela "clientes" com os valores "João" para a coluna "nome" e 30 para a coluna "idade".</p>
+                        
+                        <h3>Comando <code>UPDATE</code></h3>
+                        <p><strong>Propósito:</strong> Usado para atualizar dados existentes em uma tabela.</p>
+                        
                         <div className={Styles.codigoPrint}>
                             <div className={Styles.containerBol}>
                                 <div className={Styles.boll1}></div>
                                 <div className={Styles.boll2}></div>
                                 <div className={Styles.boll3}></div>
                             </div>
-                             <div className={Styles.codigo}>
-                                <pre>{`<img src="caminho/para/imagem.jpg" alt="Descrição da Imagem">`}</pre>
-                             </div>
+                            <div className={Styles.codigo}>
+                                <pre>{`UPDATE clientes SET idade = 31 WHERE nome = 'João';`}</pre>
+                            </div>
                         </div>
-                        <p><strong>Explicação Detalhada:</strong> A tag {'<img>'} é usada para incorporar imagens em uma página da web. Ela requer dois atributos principais: <code>src</code>, que especifica o caminho da imagem, e <code>alt</code>, que fornece uma descrição textual da imagem. A descrição é importante para acessibilidade, e também é exibida quando a imagem não pode ser carregada.</p>
-             
-                    </div> 
+                        
+                        <p><strong>Explicação Detalhada:</strong> Este comando <code>UPDATE</code> modifica o valor da coluna "idade" para 31 onde o valor da coluna "nome" é "João".</p>
+                        
+                        <h3>Comando <code>DELETE</code></h3>
+                        <p><strong>Propósito:</strong> Usado para excluir dados de uma tabela.</p>
+                        
+                        <div className={Styles.codigoPrint}>
+                            <div className={Styles.containerBol}>
+                                <div className={Styles.boll1}></div>
+                                <div className={Styles.boll2}></div>
+                                <div className={Styles.boll3}></div>
+                            </div>
+                            <div className={Styles.codigo}>
+                                <pre>{`DELETE FROM clientes WHERE nome = 'João';`}</pre>
+                            </div>
+                        </div>
+                        
+                        <p><strong>Explicação Detalhada:</strong> Este comando <code>DELETE</code> remove o registro da tabela "clientes" onde o valor da coluna "nome" é "João".</p>
+                        
+                        <h3>Considerações Finais:</h3>
+                        <p>SQL é uma linguagem poderosa para a gestão de bancos de dados relacionais, permitindo que você crie, leia, atualize e exclua dados de maneira eficiente. O uso adequado de comandos SQL é fundamental para o bom funcionamento de sistemas que dependem de bancos de dados.</p>
+                    </div>
                 </div>
             </div>
             <Footer />
