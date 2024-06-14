@@ -6,7 +6,7 @@ import Loginho from '../../../assets/img/png/Logo.png'
 import Footer from '../../Footer'
 
 
-const Login = () => {
+const Login = () => { 
     return(
         <>
             <Helmet>
