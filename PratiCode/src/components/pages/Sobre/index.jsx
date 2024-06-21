@@ -4,10 +4,25 @@ import Styles from "./Sobre.module.css";
 import Footer from "../../Footer";
 import Fundadores_img from "../../../assets/img/png/fundadores.jpeg";
 import Layout_img from "../../../assets/img/png/layout.png";
-import logo from "../../../assets/img/png/LogoBFR.png"
-const Sobre = () => {
-    return (
+import logo from "../../../assets/img/png/LogoBFR.png";
+import logo2 from "../../../assets/img/png/LogoRFB.png";
+import { useState } from "react";
 
+const Sobre = () => {
+    const [currentLogo, setCurrentLogo] = useState(logo); // Estado para controlar a logo atual
+    const [backgroundColor, setBackgroundColor] = useState(""); // Estado para controlar o background
+
+    const handleMouseEnter = () => {
+        setCurrentLogo(logo2);
+        setBackgroundColor("#fff");
+    };
+
+    const handleMouseLeave = () => {
+        setCurrentLogo(logo);
+        setBackgroundColor("");
+    };
+
+    return (
         <>
             <Helmet>
                 <title>Sobre</title>
@@ -16,12 +31,12 @@ const Sobre = () => {
             <div className={Styles.main}>
                 <br /><br /><br /><br /><br /><br /><br />
                 <div className={Styles.TextContainer}>
-                    <div className={Styles.imgs}>
-                        <img src={logo} alt="" />
+                    <div className={Styles.imgs} style={{ backgroundColor: backgroundColor }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <img src={currentLogo} alt="Logo" className={Styles.logo} />
                     </div>
-                        <h1>Tudo o que você precisa saber sobre o PratiCode.io</h1>
-                        <h2>Conheça a história, o propósito do PratiCode.io</h2>
-                        <h3>Quem é PratiCode.io?</h3>
+                    <h1>Tudo o que você precisa saber sobre o PratiCode.io</h1>
+                    <h2>Conheça a história, o propósito do PratiCode.io</h2>
+                    <h3>Quem é PratiCode.io?</h3>
                     <p>
                         Somos uma empresa de tecnologia dedicada a ajudar estudantes e novos desenvolvedores a atingir seu potencial máximo. Oferecemos uma plataforma avançada e serviços essenciais para que vocês possam estudar, praticar e compartilhar seu conhecimento.<br/><br/>
                         Nossa meta é apoiar não apenas quem já tem experiência em desenvolvimento, mas também aqueles que estão começando do zero. Disponibilizamos uma página de exercícios com desafios em várias linguagens de programação, ideal para prática contínua. Na aba "Conteúdo" do nosso site, você encontrará conteúdos especializados e vídeos.<br/><br/>

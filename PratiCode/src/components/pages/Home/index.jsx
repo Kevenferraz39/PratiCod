@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import Footer from "../../Footer"
 import NavBar from "../../NavBar"
 import Styles from './home.module.css'
-import Notification from '../../Notification'
+import Notification from '../../Notification'  
 
 const Home = () => {
     const [showNotification, setShowNotification] = useState(false)
