@@ -3,6 +3,7 @@
     --text-common: #D3D4D7;
     --color-theme: #9901c3;
     --color-theme-hover: #740685;
+    --color-segundary:#00CBAE;
     --section-color: #16181D;
 }
 /* Tags.module.css */
@@ -22,8 +23,8 @@
     margin-left: auto;
     margin-right: auto;
     padding: 2rem;
-    gap: 2.2rem;
-    justify-content: space-around;
+    gap: 2rem;
+    justify-content:center;
 }
 
 .pageLink {
@@ -85,8 +86,7 @@
     color: var(--text-common);
 }
 .button:hover {
-    color: var(--color-theme-hover);
-    background-color: var(--text-common);
+    color: var(--color-segundary);
 }
 .button span {
     text-align: center;

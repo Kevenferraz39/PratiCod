@@ -6,6 +6,7 @@
     --text-common-hover: #c8c8c9;
     --color-theme: #9901c3;
     --color-theme-hover: #740685;
+    --color-segundary:#00CBAE;
     --section-color: #16181D;
     --section-color-hover: #1c1f25;
     --color-theme-titulo:#c8c8c9;
@@ -125,9 +126,6 @@
 .container_text p,li{
     margin-bottom: 1rem;
     margin-top: 1rem;
-}
-.container_text strong{
-    color: var(--strong);
 }
 .container_text code{
     color: var(--code);

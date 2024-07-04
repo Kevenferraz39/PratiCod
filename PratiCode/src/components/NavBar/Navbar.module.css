@@ -5,6 +5,7 @@
   --text-common: #D3D4D7;
   --color-teme: #9901c3; 
   --color-teme-hover:#740685;
+  --color-segundary:#00CBAE;
   --section-color: #16181D;
 }
 * {
@@ -55,7 +56,7 @@ nav {
   margin-right: 4rem;
 }
 .NavLink.active span {
-  color: var(--color-teme);
+  color: var(--color-segundary);
 }
 .NavLink.active span:hover{
   color: var(--color-teme-hover);
