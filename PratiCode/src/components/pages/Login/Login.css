@@ -103,7 +103,7 @@
   
   .sign {
     display: block;
-    width: 92%;
+    width: 100%;
     background-color: var(--bacground);
     padding: 0.75rem;
     text-align: center;
@@ -112,6 +112,8 @@
     border-radius: 0.375rem;
     font-weight: 600;
     font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .sign:hover{
     background-color: var(--color-teme-hover);

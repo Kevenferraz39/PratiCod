@@ -58,20 +58,42 @@ nav {
 .NavLink.active span {
   color: var(--color-segundary);
 }
-.NavLink.active span:hover{
+.NavLink.active span:hover {
   color: var(--color-teme-hover);
 }
-.LogoTexto{
+
+.NavLink,
+.NavLinkButton {
+  border: none;
+  background: none;
+  color: var(--text-common);
+  font-weight: bolder;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0;
+}
+
+.NavLink span,
+.NavLinkButton span {
+  color: inherit;
+}
+
+.NavLink:hover span,
+.NavLinkButton:hover span {
+  color: var(--color-teme);
+}
+
+.LogoTexto {
   margin: 0;
-  margin-left:0;
+  margin-left: 0;
   padding: 0;
   width: 50%;
 }
-.LogoTexto:hover{
+.LogoTexto:hover {
   filter: drop-shadow(0px 1px 5px var(--color-teme));
 }
 .LogoFoto {
- display: none;
+  display: none;
 }
 
 ul {
@@ -91,7 +113,7 @@ li span:hover {
   color: var(--color-teme);
 }
 
-nav .menu-button{
+nav .menu-button {
   display: none;
 }
 @media (max-width: 800px) {
@@ -136,4 +158,3 @@ nav .menu-button{
     cursor: pointer;
   }
 }
-

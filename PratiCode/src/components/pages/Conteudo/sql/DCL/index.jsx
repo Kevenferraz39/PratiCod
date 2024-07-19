@@ -5,7 +5,7 @@ import NavBar from '../../../../NavBar'
 import Footer from '../../../../Footer'
 import DCLjson from '../ComandDCL.json'
 
-const PageDCL = () => {
+const PageDCL = () => { 
     return(
         <>
            <Helmet>
