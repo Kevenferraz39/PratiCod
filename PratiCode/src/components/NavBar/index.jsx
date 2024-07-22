@@ -53,7 +53,7 @@ const NavBar = () => {
               <li><Link to="/Sobre" className={`${styles.NavLink} ${location.pathname === '/Sobre' ? styles.active : ''}`}><span>Sobre</span></Link></li>
               {isLoggedIn ? (
               
-                  <li><a href="#" onClick={showModal} style={{ width: 'auto' }}>Pefil</a></li>
+                  <li><a href="#" onClick={showModal} style={{ width: 'auto' }}><span>Pefil</span></a></li>
                 
               ) : (
                 <li><Link to="/Login" className={styles.NavLink}><span>Login</span></Link></li>
@@ -73,19 +73,22 @@ const NavBar = () => {
             <img src={ImagemPerfil} alt="Avatar" className={styles.avatar} />
           </div>
           <div className={styles.container}>
-            <div className={styles["button-container"]}>
-              <button className={styles.cadastro}><Link to="cadastro.html">Cadastre-se</Link></button>
+            <div className={styles.informationUser}>
+              <p>{localStorage.getItem('username')}</p>
+              <p>{localStorage.getItem('email')}</p>
+            </div>
+            <div className={styles["button-container"]}> 
               <button className={styles.Vermais}><Link to="#">Ver mais</Link></button>
+              <button className={styles.cadastro}><Link to="cadastro.html">Cadastre-se</Link></button>
+             
             </div>
           </div>
-          <div className={styles.container} style={{ backgroundColor: '#f1f1f1' }}>
-            <button onClick={handleLogout} className={styles.cancelbtn}>Logout</button>
+          <div className={styles.container} style={{ backgroundColor: '#16181D' }}>
+            <button onClick={handleLogout} className={styles.logout}>Logout</button>
             <span className={styles.psw}>Esqueceu a <a href="#">Senha?</a></span>
           </div>
         </form>
       </div>
-
-
 
     </>
   );
