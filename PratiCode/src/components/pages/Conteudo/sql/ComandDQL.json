@@ -1,0 +1,109 @@
+[   {
+        "tag": "O que é DQL",
+        "route": "/PageDQL" 
+    },
+    {
+        "tag": "SELECT",
+        "route": "/cmd_select"
+    },
+    {
+        "tag": "FROM",
+        "route": "/cmd_from"
+    },
+    {
+        "tag": "WHERE",
+        "route": "/cmd_where"
+    },
+    {
+        "tag": "GROUP BY",
+        "route": "/cmd_groupby"
+    },
+    {
+        "tag": "HAVING",
+        "route": "/cmd_having"
+    },
+    {
+        "tag": "ORDER BY",
+        "route": "/cmd_orderby"
+    },
+    {
+        "tag": "JOIN",
+        "route": "/cmd_join"
+    },
+    {
+        "tag": "INNER JOIN",
+        "route": "/cmd_innerjoin"
+    },
+    {
+        "tag": "LEFT JOIN",
+        "route": "/cmd_leftjoin"
+    },
+    {
+        "tag": "RIGHT JOIN",
+        "route": "/cmd_rightjoin"
+    },
+    {
+        "tag": "FULL JOIN",
+        "route": "/cmd_fulljoin"
+    },
+    {
+        "tag": "CROSS JOIN",
+        "route": "/cmd_crossjoin"
+    },
+    {
+        "tag": "UNION",
+        "route": "/cmd_union"
+    },
+    {
+        "tag": "UNION ALL",
+        "route": "/cmd_unionall"
+    },
+    {
+        "tag": "DISTINCT",
+        "route": "/cmd_distinct"
+    },
+    {
+        "tag": "LIMIT",
+        "route": "/cmd_limit"
+    },
+    {
+        "tag": "OFFSET",
+        "route": "/cmd_offset"
+    },
+    {
+        "tag": "AVG",
+        "route": "/cmd_avg"
+    },
+    {
+        "tag": "CASE",
+        "route": "/cmd_case"
+    },
+    {
+        "tag": "COALESCE",
+        "route": "/cmd_coalesce"
+    },
+    {
+        "tag": "COUNT",
+        "route": "/cmd_count"
+    },
+    {
+        "tag": "LIKE",
+        "route": "/cmd_like"
+    },
+    {
+        "tag": "MAX",
+        "route": "/cmd_max"
+    },
+    {
+        "tag": "MIN",
+        "route": "/cmd_min"
+    },
+    {
+        "tag": "SUM",
+        "route": "/cmd_sum"
+    },
+    {
+        "tag": "Voltar",
+        "route":"/Pagesql"
+    }
+]

@@ -3,8 +3,9 @@
 :root {
   --background: #282c34;
   --text-common: #D3D4D7;
-  --color-teme: #9901c3;
+  --color-teme: #9901c3; 
   --color-teme-hover:#740685;
+  --color-segundary:#00CBAE;
   --section-color: #16181D;
 }
 * {
@@ -55,22 +56,45 @@ nav {
   margin-right: 4rem;
 }
 .NavLink.active span {
-  color: var(--color-teme);
+  color: var(--color-segundary);
 }
-.NavLink.active span:hover{
+.NavLink.active span:hover {
   color: var(--color-teme-hover);
 }
-.LogoTexto{
+/* Botao de logout */
+.NavLink,
+.NavLinkButton {
+  border: none;
+  background: none;
+  color: var(--text-common);
+  font-weight: bolder;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 0rem;
+  padding: 0;
+}
+
+.NavLink span,
+.NavLinkButton span {
+  color: inherit;
+}
+
+.NavLink:hover span,
+.NavLinkButton:hover span {
+  color: var(--color-teme);
+}
+
+.LogoTexto {
   margin: 0;
-  margin-left:0;
+  margin-left: 0;
   padding: 0;
   width: 50%;
 }
-.LogoTexto:hover{
+.LogoTexto:hover {
   filter: drop-shadow(0px 1px 5px var(--color-teme));
 }
 .LogoFoto {
- display: none;
+  display: none;
 }
 
 ul {
@@ -90,9 +114,119 @@ li span:hover {
   color: var(--color-teme);
 }
 
-nav .menu-button{
+nav .menu-button {
   display: none;
 }
+
+/* Estilos adicionais para o modal */ 
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding-top: 60px;
+}
+
+.modalContent {
+  background-color: var(--background);
+  margin: 2rem; 
+  border: none;
+  width: 30%; 
+  float: right;
+  border-radius: 4%;
+  box-shadow: 0px 0px 40px 0px var(--section-color);
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  gap: 10px; /* Espaço entre a informação e os botões */
+}
+
+.informationUser {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  margin-bottom: 10px; /* Espaço entre a informação e os botões */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Alinha os botões no centro horizontalmente */
+  gap: 1rem; /* Espaço de 1 rem entre os botões */
+  width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+}
+
+.cadastro, .Vermais {
+  width: 110px;
+  padding: 10px;
+  background-color: var(--color-teme);
+  border: none;
+  cursor: pointer;
+}
+
+.cadastro:hover, .Vermais:hover {
+  background-color: var(--color-teme-hover);
+}
+
+.cadastro a, .Vermais a {
+  color: white;
+  text-decoration: none;
+}
+
+.cadastro a:hover, .Vermais a:hover {
+  text-decoration: none;
+}
+
+.logout {
+  width: 80%; /* Ajuste a largura dos botões para caber lado a lado */
+  padding: 10px;
+  background-color: var(--color-teme);
+  border: none;
+  cursor: pointer;
+  float: left;
+}
+
+.logout:hover {
+  background-color: var(--color-teme-hover);
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: var(--color-segundary);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--color-teme-hover);
+  cursor: pointer;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 0;
+  position: relative;
+}
+
 @media (max-width: 800px) {
   .LogoTexto {
     display: none;
@@ -136,3 +270,45 @@ nav .menu-button{
   }
 }
 
+@media (max-width: 800px) {
+  .LogoTexto {
+    display: none;
+  }
+  .LogoFoto {
+    display: block;
+    width: 50px;
+    height: auto;
+    margin-right: 1.5rem;
+  }
+  .LogoFoto:hover {
+    filter: drop-shadow(0px 1px 3px var(--color-teme));
+  }
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .NavLinks {
+    display: none;
+    flex-direction: column;
+    gap: 1.8rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+    height: 90vh;
+  }
+  .NavLinks.open {
+    display: flex;
+    margin-top: 0; /* Remove a margem superior quando o menu está aberto */
+  }
+  nav .menu-button {
+    display: block;
+    width: 40px;
+    margin-right: 2rem;
+    height: auto;
+    float: right;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "tag": "O que é TCL",
+        "route": "/pageTCL" 
+    },
+    {
+        "tag": "COMMIT",
+        "route": "/cmd_commit" 
+    },
+    {
+        "tag": "ROLLBACK",
+        "route": "/cmd_rollback"
+    },
+    {
+        "tag": "SAVEPOINT",
+        "route": "/cmd_savepoint" 
+    },
+    {
+        "tag": "SET TRANSITION",
+        "route": "/cmd_setTransition"
+    },
+    {
+        "tag": "Voltar",
+        "route":"/Pagesql"
+    }
+]

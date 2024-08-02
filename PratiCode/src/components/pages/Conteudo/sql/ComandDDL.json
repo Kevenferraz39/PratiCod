@@ -1,0 +1,34 @@
+[   
+    {
+        "tag": "O que é DDL",
+        "route": "/pageDDL" 
+    },
+    {
+        "tag": "ALTER TABLE",
+        "route": "/Cmd_alterTable"
+    },
+    {
+        "tag": "CREATE DATABASE",
+        "route": "/Cmd_createDatabase"
+    },
+    {
+        "tag": "CREATE INDEX",
+        "route": "/Cmd_index"
+    },
+    {
+        "tag": "CREATE TABLE",
+        "route": "/Cmd_table"
+    },
+    {
+        "tag": "DROP DATABASE",
+        "route": "/Cmd_dropDatabase"
+    },
+    {
+        "tag": "DROP TABLE",
+        "route": "/Cmd_dropTable"
+    },
+    {
+        "tag": "Voltar",
+        "route":"/Pagesql"
+    }
+]

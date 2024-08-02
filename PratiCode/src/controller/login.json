@@ -1,0 +1,18 @@
+[
+    {
+        "Tipo de usuario": "Adm",
+        "Usuario": "Keven Ferraz de Almeida",
+        "Email":"kevenferraz39@gmail.com",
+        "Senha": "PratiCode2024"
+    },
+    {
+        "Tipo de usuario": "Usuario",
+        "Usuario": "Aluno1",
+        "Senha": "Aluno001"
+    },
+    {
+        "Tipo de usuario": "Usuario",
+        "Usuario": "Aluno2",
+        "Senha": "Aluno002"
+    }
+]

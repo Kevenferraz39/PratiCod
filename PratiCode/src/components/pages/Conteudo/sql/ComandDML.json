@@ -1,0 +1,26 @@
+[   
+    {
+        "tag": "O que é DML",
+        "route": "/pageDML" 
+    },
+    {
+        "tag": "DELETE",
+        "route": "/Cmd_delete"
+    },
+    {
+        "tag": "INSERT",
+        "route": "/Cmd_insert"
+    },
+    {
+        "tag": "MERGE",
+        "route": "/Cmd_merge"
+    },
+    {
+        "tag": "UPDATE",
+        "route": "/Cmd_update"
+    },
+    {
+        "tag": "Voltar",
+        "route":"/Pagesql"
+    }
+]

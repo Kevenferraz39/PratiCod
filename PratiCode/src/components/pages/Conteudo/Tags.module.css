@@ -1,0 +1,152 @@
+:root {
+    --background: #282c34;
+    --text-common: #D3D4D7;
+    --color-theme: #9901c3;
+    --color-theme-hover: #740685;
+    --color-segundary:#00CBAE;
+    --section-color: #16181D;
+}
+/* Tags.module.css */
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background);
+}
+
+.containerLinks {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content:center;
+}
+
+.pageLink {
+    width: 200px;
+    height: 200px; 
+    border-radius: 1rem;
+    padding: 0.1rem;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 1px var(--section-color);
+    overflow: hidden;
+}
+
+.containerImg {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.containerImg img {
+    width: 100%;
+    height: auto;
+}
+
+.containerTitle {
+    height: auto;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.containerTitle h3 {
+    margin-top: 1rem; /* Adicionado espaçamento */
+    text-align: center;
+    color: var(--text-common); /* Adicionado cor do texto */
+}
+
+.containerBtn {
+    height: auto;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem; /* Adicionado espaçamento */
+    overflow: hidden;
+}
+ 
+.button {
+    background-color: var(--section-color);
+    padding: 0.4rem 3rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.7rem;
+    color: var(--text-common);
+}
+.button:hover {
+    color: var(--color-segundary);
+}
+.button span {
+    text-align: center;
+    align-items: center;
+}
+
+/* Estilos para o modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.363);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    width: 50%;
+    height: 80%;
+    background: var(--section-color);
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 1rem;
+}
+.modalContent h2{
+    margin-bottom: 1rem;
+    color: var(--color-theme);
+}
+.modalContent p{
+    text-align: justify;
+}
+.modalContent span{
+    margin: 0;
+    color: var(--color-theme);
+}
+.modalContent ul{
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.modalContent li{
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.modalButton {
+    background-color: var(--color-theme);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.modalButton:hover {
+    background-color: var(--color-theme-hover);
+}

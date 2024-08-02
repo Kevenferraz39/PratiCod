@@ -4,6 +4,7 @@
     --text-comum:#D3D4D7;
     --color-teme:#9901c3;
     --color-teme-hover:#740685;
+    --color-segundary:#00CBAE;
     --section-color:#16181D;
 }
 footer{
@@ -30,9 +31,7 @@ footer{
 .logofoter{
     width: 50%;
 }
-.logofoter:hover{
-    filter: drop-shadow(0px 1px 5px var(--color-teme));
-}
+
 .logo-space .logofoter{
     margin-top: 10px;
     margin-left: auto;
@@ -65,17 +64,8 @@ footer{
     color: var(--color-teme);
     margin-bottom: 2px;
 }
-.information li:hover{
-    color: var(--color-teme-hover);
-}
-.information a{
-    list-style: none;
-    text-decoration: none;
-    font-weight: bold;
-    color: #dddd;
-}
 .information a:hover{
-    color: var(--color-teme-hover);
+    color: var(--color-segundary);
 }
 span{
     color: var(--teme);

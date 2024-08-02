@@ -1,0 +1,87 @@
+:root {
+    --bacground: #282c34;
+    --text-comum: #D3D4D7;
+    --color-teme: #9901c3;
+    --color-teme-hover: #740685;
+    --section-color: #16181D;
+}
+
+.main {
+    width: 100%; 
+    min-height: 100vh;
+    background-color: var(--bacground);
+}
+
+.TextContainer {
+    width: 80%;
+    text-align: justify;
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TextContainer p{
+    width: 100%;
+    height: 100%;
+}
+.TextContainer h1, .TextContainer h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.TextContainer .imgs {
+    width: 100%;
+    height: 400px;
+    background-color: var(--color-teme);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+figure {
+    gap: 1rem;
+}
+
+.TextContainer .fundadores {
+    width: 50%;
+}
+
+ol {
+    counter-reset: item;
+}
+ 
+ol .Lista_valores {
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol .Lista_valores::before {
+    content: counters(item, ".") ". ";
+    color: var(--color-teme);
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .TextContainer {
+        width: 80%;
+    }
+    .TextContainer p{
+        width: 100%;
+        height: 100%;
+    }
+    .TextContainer .fundadores {
+        width: 100%;
+    }
+
+    .TextContainer .imgs {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .TextContainer h1, .TextContainer h2 {
+        font-size: 1.5rem;
+    }
+
+    ol .Lista_valores::before {
+        font-size: 1rem;
+    }
+}
